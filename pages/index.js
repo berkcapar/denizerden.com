@@ -1,16 +1,12 @@
-import Header from '../components/Header'
-import Layout from '../components/Layout';
-import Navigation from '../components/Navigation';
+import Layout from '../components/Layout'
+import Projects from '../components/Projects'
 
 const Index = () => {
-  return <Layout> 
+  return (
     <div>
-      <Header/>
+      <Layout />
+      <Projects/>
     </div>
-    </Layout>
-  
+  )
 }
-export default Index;
-
-
-
+export default Index
