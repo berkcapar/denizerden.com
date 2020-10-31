@@ -5,24 +5,16 @@ const ProjectsNav = () => {
     <div>
       <nav className="link">
         <label>
-          <Link href="/">
-            <a>SOLO</a>
-          </Link>
+          <a href="#soloworks">SOLO</a>
         </label>
         <label>
-          <Link href="/">
-            <a>COLLABRATIONS</a>
-          </Link>
+          <a href="#collabrations">COLLABRATIONS</a>
         </label>
         <label>
-          <Link href="/">
-            <a>PAST SHOWS</a>
-          </Link>
+          <a href="#pastshows">PAST SHOWS</a>
         </label>
         <label>
-          <Link href="/">
-            <a>FILM/ART/SET</a>
-          </Link>
+          <a href="#filmartset">FILM/ART/SET</a>
         </label>
       </nav>
 

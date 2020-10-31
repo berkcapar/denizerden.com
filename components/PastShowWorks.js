@@ -1,16 +1,13 @@
 import React from 'react'
-import {CollabCard} from './WorkCard'
+import { PastShowCard } from './WorkCard'
 
-const CollabWorks = ({ collabrationcontents }) => {
+const PastShowWorks = ({ pastshowscontents }) => {
   return (
     <div>
-      <h1 id="collabrations" className="headtext">Collabrations</h1>
+      <h1 className="headtext">Past Shows</h1>
       <div className="solocontentcards">
-        {collabrationcontents.map((collabrationcontent) => (
-          <CollabCard
-            key={collabrationcontent.id}
-            collabrationcontent={collabrationcontent}
-          />
+        {pastshowscontents.map((pastshowscontent) => (
+          <PastShowCard key={pastshowscontent.id} pastshowscontent={pastshowscontent} />
         ))}
       </div>
       <style jsx>
@@ -31,4 +28,4 @@ const CollabWorks = ({ collabrationcontents }) => {
   )
 }
 
-export default CollabWorks
+export default PastShowWorks

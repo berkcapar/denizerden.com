@@ -57,3 +57,62 @@ export const CollabCard = ({ collabrationcontent }) => {
     </div>
   )
 }
+
+export const PastShowCard = ({ pastshowscontent }) => {
+  return (
+    <div className="collabcard">
+      <div>
+        <Link href="/projects/[title]" as={`/projects/${pastshowscontent.title}`}>
+          <a>
+            <img src={pastshowscontent.coverimageUrl} />
+            <h2>{pastshowscontent.title}</h2>
+            <p> {pastshowscontent.year}</p>
+          </a>
+        </Link>
+      </div>
+      <style jsx>
+        {`
+          .collabcard {
+            display: flex;
+            color: white;
+            flex: 0 1 24%;
+          }
+          .collabcard a {
+            text-decoration: none;
+            color: white;
+          }
+        `}
+      </style>
+    </div>
+  )
+}
+
+
+export const MovieArtSetCard = ({ movieartsetcontent }) => {
+  return (
+    <div className="collabcard">
+      <div>
+        <Link href="/projects/[title]" as={`/projects/${movieartsetcontent.title}`}>
+          <a>
+            <img src={movieartsetcontent.coverimageUrl} />
+            <h2>{movieartsetcontent.title}</h2>
+            <p> {movieartsetcontent.year}</p>
+          </a>
+        </Link>
+      </div>
+      <style jsx>
+        {`
+          .collabcard {
+            display: flex;
+            color: white;
+            flex: 0 1 24%;
+          }
+          .collabcard a {
+            text-decoration: none;
+            color: white;
+          }
+        `}
+      </style>
+    </div>
+  )
+}

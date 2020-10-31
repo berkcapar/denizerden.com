@@ -1,6 +1,5 @@
 import React from 'react'
 import {SoloCard} from './WorkCard'
-import Link from 'next/link'
 
 const SoloWorks = ({ solocontents }) => {
   return (

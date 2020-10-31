@@ -1,9 +1,12 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Header = () => {
   return (
-   <div>
-      <h1 className="headertext">DENİZ ERDEN</h1>
+   <div className="header">
+     <Link href="/">
+      <a><h1 className="headertext">DENİZ ERDEN</h1></a>
+      </Link>
       <style jsx>
         {`
           .headertext {
@@ -11,6 +14,9 @@ const Header = () => {
             font-weight: 500px;
             font-size: 60px;
             color: #e1bfd1;
+          }
+          .header a {
+            text-decoration:none
           }
         `}
       </style>
