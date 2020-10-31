@@ -1,11 +1,11 @@
 import Layout from '../components/Layout'
-import Projects from '../components/Projects'
+import LatestUpdate from '../components/LatestUpdate'
 
 const Index = () => {
   return (
     <div>
-      <Layout />
-      <Projects/>
+      <Layout/>
+      <LatestUpdate/>
     </div>
   )
 }

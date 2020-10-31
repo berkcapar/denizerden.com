@@ -12,9 +12,25 @@ const Layout = ({ children }) => {
           content="initial-scale=1.0, width= device-width"
         />
       </Head>
-      <Header/>
-      <Navigation />
+      <div className="headcontainer"> 
+      <div className="header"><Header/></div>
+      <div className= "navigation"><Navigation/></div>
+      </div>
       <main>{children}</main>
+      <style jsx>{`
+      .header{
+        display:flex;
+        justify-content: center;
+        height: 60px;       
+      }
+      .navigation{
+        display:flex;
+        justify-content: flex-end;
+      }`
+}
+
+      </style>
+      
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Projects = () => {
+const LatestUpdate = () => {
   return (
     <div className="projects">
       <div className="latestnewhead">
@@ -12,9 +12,9 @@ const Projects = () => {
           width="560"
           height="315"
           src="https://www.youtube.com/embed/s7n3F9bNFKg"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
       <style jsx>{`
@@ -25,7 +25,7 @@ const Projects = () => {
         .latestnewhead {
           display: flex;
           justify-content: center;
-          margin-top: 20px;
+          margin-top: 80px;
           color: #e1bfd1;
           font-weight: normal;
         }
@@ -38,4 +38,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default LatestUpdate

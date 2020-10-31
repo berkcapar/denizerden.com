@@ -10,7 +10,7 @@ const Navigation = () => {
         </Link>
       </label>
       <label>
-        <Link href="/">
+        <Link href="/projects">
           <a>PROJECTS</a>
         </Link>
       </label>
@@ -20,10 +20,7 @@ const Navigation = () => {
         </Link>
       </label>
       <style jsx>{`
-        .link {
-          display: flex;
-          justify-content: center;
-        }
+       
         .link label {
           padding: 20px;
           font-size: 25px;
