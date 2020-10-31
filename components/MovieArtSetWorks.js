@@ -4,7 +4,7 @@ import {MovieArtSetCard} from './WorkCard'
 const MovieArtSetWorks = ({ movieartsetcontents }) => {
   return (
     <div>
-      <h1 id="movieartset" className="headtext">Collabrations</h1>
+      <h1 id="movieartset" className="headtext">Movie/Art/Mixtape</h1>
       <div className="movieartsetcards">
         {movieartsetcontents.map((movieartsetcontent) => (
           <MovieArtSetCard

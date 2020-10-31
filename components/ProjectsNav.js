@@ -14,7 +14,7 @@ const ProjectsNav = () => {
           <a href="#pastshows">PAST SHOWS</a>
         </label>
         <label>
-          <a href="#filmartset">FILM/ART/SET</a>
+          <a href="#movieartset">MOVIE/ART/MIXTAPE</a>
         </label>
       </nav>
 

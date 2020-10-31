@@ -4,7 +4,7 @@ import { PastShowCard } from './WorkCard'
 const PastShowWorks = ({ pastshowscontents }) => {
   return (
     <div>
-      <h1 className="headtext">Past Shows</h1>
+      <h1 id="pastshows" className="headtext">Past Shows</h1>
       <div className="solocontentcards">
         {pastshowscontents.map((pastshowscontent) => (
           <PastShowCard key={pastshowscontent.id} pastshowscontent={pastshowscontent} />
