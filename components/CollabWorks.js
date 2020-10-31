@@ -1,13 +1,16 @@
 import React from 'react'
-import {SoloCard} from './WorkCard'
+import {CollabCard} from './WorkCard'
 
-const SoloWorks = ({ solocontents }) => {
+const CollabWorks = ({ collabrationcontents }) => {
   return (
     <div>
-      <h1 className="headtext">Solo Works</h1>
+      <h1 className="headtext">Collabrations</h1>
       <div className="solocontentcards">
-        {solocontents.map((solocontent) => (
-          <SoloCard key={solocontent.id} solocontent={solocontent} />
+        {collabrationcontents.map((collabrationcontent) => (
+          <CollabCard
+            key={collabrationcontent.id}
+            collabrationcontent={collabrationcontent}
+          />
         ))}
       </div>
       <style jsx>
@@ -28,4 +31,4 @@ const SoloWorks = ({ solocontents }) => {
   )
 }
 
-export default SoloWorks
+export default CollabWorks
