@@ -25,6 +25,17 @@ const MovieArtSetWorks = ({ movieartsetcontents }) => {
             flex-wrap: wrap;
             justify-content: space-around;
           }
+          @media screen and (min-width: 40em) {
+            .movieartsetcards {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+            }
+          }
+          @media screen and (min-width: 60em) {
+            .movieartsetcards {
+            }
+          }
         `}
       </style>
     </div>

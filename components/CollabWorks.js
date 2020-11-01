@@ -5,7 +5,7 @@ const CollabWorks = ({ collabrationcontents }) => {
   return (
     <div>
       <h1 id="collabrations" className="headtext">Collabrations</h1>
-      <div className="solocontentcards">
+      <div className="collabcontentcards">
         {collabrationcontents.map((collabrationcontent) => (
           <CollabCard
             key={collabrationcontent.id}
@@ -20,10 +20,21 @@ const CollabWorks = ({ collabrationcontents }) => {
             justify-content: center;
             color: white;
           }
-          .solocontentcards {
+          .collabcontentcards {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
+          }
+          @media screen and (min-width: 40em) {
+            .collabcontentcards {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+            }
+          }
+          @media screen and (min-width: 60em) {
+            .collabcontentcards {
+            }
           }
         `}
       </style>

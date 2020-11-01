@@ -6,7 +6,7 @@ import SoloWorks from './SoloWorks'
 
 
   const solocontents = [
-  { id: 1, title: 'Quarantine Improvisations', year: '2020', coverimageUrl: "/soloproject1.jpg"},
+  { id: 1, title: 'Quarantine Improvisations', year: '2020', coverimageUrl:"/soloproject1.jpg"},
   { id: 2, title: 'Lush Town People', year: '2020', coverimageUrl: "/soloproject1.jpg"},
   { id: 3, title: 'Body', year: '2020', coverimageUrl: "/soloproject1.jpg" },
   { id: 4, title: 'Awakening the Sleeping Tiger', year: '2020', coverimageUrl: "/soloproject1.jpg" },

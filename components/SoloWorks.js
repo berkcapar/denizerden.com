@@ -17,7 +17,8 @@ const SoloWorks = ({ solocontents }) => {
             justify-content: center;
             color: white;
           }
-          .solocontentcards {
+          @media screen and (min-width: 480px)
+            .solocontentcards {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;

@@ -1,4 +1,3 @@
-import Link from 'next/link'
 
 const ProjectsNav = () => {
   return (
@@ -36,6 +35,7 @@ const ProjectsNav = () => {
           a:hover {
             color: white;
           }
+          @media 
         `}
       </style>
     </div>
