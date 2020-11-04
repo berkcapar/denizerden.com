@@ -1,8 +1,8 @@
 
 const ProjectsNav = () => {
   return (
-    <div>
-      <nav className="link">
+    <div className="container">
+      <nav>
         <label>
           <a href="#soloworks">SOLO</a>
         </label>
@@ -19,15 +19,18 @@ const ProjectsNav = () => {
 
       <style jsx>
         {`
-          .link {
+          nav {
+            border: 1px solid magenta;
+            padding: 1.5rem;
             display: flex;
             justify-content: center;
+            margin:0 auto;
+            max-width: 1200px; 
           }
-          .link label {
-            padding: 60px;
-            font-size: 20px;
+          nav label {
+           margin: 0 2em; 
           }
-          a {
+          nav a {
             color: #e1bfd1;
             text-decoration: none;
             font-weight: 500px;
@@ -35,7 +38,14 @@ const ProjectsNav = () => {
           a:hover {
             color: white;
           }
-          @media 
+          @media(max-width:675px){
+            nav{
+              flex-direction:column;       
+            }
+            nav label{
+              margin: 1em auto;        
+            }
+          }
         `}
       </style>
     </div>

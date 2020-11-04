@@ -3,8 +3,8 @@ import {MovieArtSetCard} from './WorkCard'
 
 const MovieArtSetWorks = ({ movieartsetcontents }) => {
   return (
-    <div>
-      <h1 id="movieartset" className="headtext">Movie/Art/Mixtape</h1>
+    <div className="container">
+      <h2 id="movieartset" className="solo-title">Movie/Art/Mixtape</h2>
       <div className="movieartsetcards">
         {movieartsetcontents.map((movieartsetcontent) => (
           <MovieArtSetCard
@@ -15,27 +15,14 @@ const MovieArtSetWorks = ({ movieartsetcontents }) => {
       </div>
       <style jsx>
         {`
-          .headtext {
-            display: flex;
-            justify-content: center;
-            color: white;
-          }
-          .movieartsetcards {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-          }
-          @media screen and (min-width: 40em) {
-            .movieartsetcards {
-              display: flex;
-              flex-wrap: wrap;
-              justify-content: space-between;
-            }
-          }
-          @media screen and (min-width: 60em) {
-            .movieartsetcards {
-            }
-          }
+         .container{
+          display:flex;
+          flex-direction: column;
+        }
+        .solo-title{
+          margin: 2rem auto;
+        }
+          
         `}
       </style>
     </div>

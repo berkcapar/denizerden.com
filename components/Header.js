@@ -3,24 +3,24 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-   <div className="header">
-     <Link href="/">
-      <a><h1 className="headertext">DENİZ ERDEN</h1></a>
+      <div className="sitetitle">
+      <Link href="/">
+        <a>
+          <h1>DENİZ ERDEN</h1>
+        </a>
       </Link>
       <style jsx>
         {`
-          .headertext {
-            letter-spacing: 0.2em;
-            font-weight: 500px;
-            font-size: 60px;
-            color: #e1bfd1;
+          .sitetitle {
+            display: flex;
+            justify-content: center;   
           }
-          .header a {
-            text-decoration:none
+          .sitetitle a{
+            text-decoration:none;
           }
         `}
       </style>
-      </div>
+    </div>
   )
 }
 

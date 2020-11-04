@@ -2,36 +2,31 @@ import Link from 'next/link'
 
 const Navigation = () => {
   return (
-    <nav className="link">
-      <label>
-        {' '}
-        <Link href="/who">
-          <a>BIO</a>
-        </Link>
-      </label>
-      <label>
-        <Link href="/projects">
-          <a>PROJECTS</a>
-        </Link>
-      </label>
-      <label>
-        <Link href="/live">
-          <a>LIVE</a>
-        </Link>
-      </label>
+    <nav>
+      <Link href="/who">
+        <a>BIO</a>
+      </Link>
+
+      <Link href="/projects">
+        <a>PROJECTS</a>
+      </Link>
+
+      <Link href="/live">
+        <a>LIVE</a>
+      </Link>
+
       <style jsx>{`
-       
-        .link label {
-          padding: 20px;
-          font-size: 25px;
+        nav {
+          padding: 0;
+          display: flex;
+          justify-content:center;
         }
-        a {
+        nav a {
+          margin: 2.5em 2em;
           color: #e1bfd1;
-          font-weight: 500px;
-          text-decoration: none;
+          text-decoration:none   
         }
-        a:hover {
-          color: white;
+        nav a:hover {
         }
       `}</style>
     </nav>

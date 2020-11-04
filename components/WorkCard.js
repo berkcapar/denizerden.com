@@ -2,41 +2,38 @@ import Link from 'next/link'
 
 export const SoloCard = ({ solocontent }) => {
   return (
-    <div className="solocard">
-      <div>
+    <div className="solocard-container">
+      <div className="solocard">       
         <Link href="/projects/[title]" as={`/projects/${solocontent.title}`}>
           <a>
+            <div className="cardinfo">
             <img className="cardimage" src={solocontent.coverimageUrl} />
-            <h2 className="title">{solocontent.title}</h2>
+            <h3 className="title">{solocontent.title}</h3>
             <p className="year"> {solocontent.year}</p>
+            </div>
           </a>
         </Link>
-      </div>
+        </div>
+      
       <style jsx>
         {`
-          .solocard {
-            display: flex;
-            color: white;
-            flex: 0 1 24%;
-          }
-          .solocard a {
-            text-decoration: none;
-            color: white;
-          }
-          .cardimage {
-            width: 100%;
-            height: auto;
-          }
-          @media screen and (min-width: 40em) {
-            .solocard {
-              flex: 0 1 calc(50% - 1em);
-            }
-          }
-          @media screen and (min-width: 60em) {
-            .solocard {
-              flex: 0 1 calc(25% - 1em);
-            }
-          }
+         .solocard{
+           width: 90%;
+           margin: 0 auto;        
+         }
+         .solocard a{
+          text-decoration: none;
+          color: white;
+         }
+         .cardinfo{
+           display:flex;
+           flex-direction: column;
+           align-items: center;     
+         }
+         .year{
+           margin-top:0
+         }
+         }
         `}
       </style>
     </div>
@@ -45,38 +42,33 @@ export const SoloCard = ({ solocontent }) => {
 
 export const CollabCard = ({ collabrationcontent }) => {
   return (
-    <div className="collabcard">
-      <div>
+    <div className="collabcard-container">
+      <div className="collabcard">
         <Link
           href="/projects/[title]"
-          as={`/projects/${collabrationcontent.title}`}
-        >
+          as={`/projects/${collabrationcontent.title}`}>
           <a>
-            <img src={collabrationcontent.coverimageUrl} />
-            <h2>{collabrationcontent.title}</h2>
-            <p> {collabrationcontent.year}</p>
+          <div className="cardinfo">
+            <img className="cardimage" src={collabrationcontent.coverimageUrl} />
+            <h3 className="title">{collabrationcontent.title}</h3>
+            <p className="year"> {collabrationcontent.year}</p>
+            </div>
           </a>
         </Link>
       </div>
       <style jsx>
         {`
-          .collabcard {
-            display: flex;
-            color: white;
-            flex: 0 1 24%;
+           .collabcard{
+            width: 90%;
+            margin: 0 auto;        
           }
-          .collabcard a {
-            text-decoration: none;
-            color: white;
+          .cardinfo{
+            display:flex;
+            flex-direction: column;
+            align-items: center;     
           }
-          @media screen and (min-width: 40em) {
-            .collabcard {
-              flex: 0 1 calc(25% - 1em);
-            }
-          }
-          @media screen and (min-width: 60em) {
-            .collabcard {
-            }
+          .year{
+            margin-top:0;
           }
         `}
       </style>
@@ -86,38 +78,34 @@ export const CollabCard = ({ collabrationcontent }) => {
 
 export const PastShowCard = ({ pastshowscontent }) => {
   return (
-    <div className="pastshowcard">
-      <div>
+    <div className="pastshowcard-container">
+      <div className="pastshowcard">
         <Link
           href="/projects/[title]"
           as={`/projects/${pastshowscontent.title}`}
         >
           <a>
+            <div className="cardinfo">
             <img src={pastshowscontent.coverimageUrl} />
-            <h2>{pastshowscontent.title}</h2>
-            <p> {pastshowscontent.year}</p>
+            <h3>{pastshowscontent.title}</h3>
+            <p className="year"> {pastshowscontent.year}</p>
+            </div>
           </a>
         </Link>
       </div>
       <style jsx>
         {`
-          .pastshowcard {
-            display: flex;
-            color: white;
-            flex: 0 1 24%;
+           .pastshowcard{
+            width: 90%;
+            margin: 0 auto;        
           }
-          .pastshowcard a {
-            text-decoration: none;
-            color: white;
+          .cardinfo{
+            display:flex;
+            flex-direction: column;
+            align-items: center;     
           }
-          @media screen and (min-width: 40em) {
-            .pastshowcard {
-              flex: 0 1 calc(25% - 1em);
-            }
-          }
-          @media screen and (min-width: 60em) {
-            .pastshowcard {
-            }
+          .year{
+            margin-top:0;
           }
         `}
       </style>
@@ -127,42 +115,34 @@ export const PastShowCard = ({ pastshowscontent }) => {
 
 export const MovieArtSetCard = ({ movieartsetcontent }) => {
   return (
-    <div className="movieartsetcard">
-      <div>
+    <div className="movieartsetcard-container">
+      <div className="movieartsetcard">
         <Link
           href="/projects/[title]"
           as={`/projects/${movieartsetcontent.title}`}
         >
           <a>
+            <div className="cardinfo">
             <img src={movieartsetcontent.coverimageUrl} />
-            <h2>{movieartsetcontent.title}</h2>
-            <p> {movieartsetcontent.year}</p>
+            <h3>{movieartsetcontent.title}</h3>
+            <p className="year"> {movieartsetcontent.year}</p>
+            </div>
           </a>
         </Link>
       </div>
       <style jsx>
         {`
-          .movieartsetcardcard {
-            display: flex;
-            color: white;
-            flex: 0 1 calc(25% - 1em);
+          .movieartsetcard{
+            width: 90%;
+            margin: 0 auto;        
           }
-          .movieartsetcard a {
-            text-decoration: none;
-            color: white;
+          .cardinfo{
+            display:flex;
+            flex-direction: column;
+            align-items: center;     
           }
-          @media screen and (min-width: 40em) {
-            .movieartsetcard {
-              flex: 0 1 calc(25% - 1em);
-            }
-          }
-          @media screen and (min-width: 60em) {
-            .movieartsetcard {
-            }
-          }
-          @media screen and (min-width: 52em) {
-            .movieartsetcard {
-            }
+          .year{
+            margin-top:0;
           }
         `}
       </style>

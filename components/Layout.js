@@ -12,26 +12,38 @@ const Layout = ({ children }) => {
           content="initial-scale=1.0, width= device-width"
         />
       </Head>
-      <div className="headcontainer"> 
+      
+      <div className="container container-nav"> 
       <div className="header"><Header/></div>
-      <div className= "navigation"><Navigation/></div>
+      <div className="nav"><Navigation/></div>
       </div>
       <main>{children}</main>
       <style jsx>{`
+      .container{
+        width: 90%;
+        max-width: 1200px;       
+        margin: 0 auto;
+      }
+      .container-nav{
+        display:flex;
+        justify-content: space-between; 
+      }
+      @media(max-width:675px){
+        .container-nav{
+         flex-direction:column;
+        }
+      }
       .header{
         display:flex;
-        justify-content: center;
-        height: 60px;       
+        justify-content: center;    
       }
-      .navigation{
-        display:flex;
-        justify-content: flex-end;
-      }`
+      `
 }
 
       </style>
       
     </div>
+    
   )
 }
 export default Layout

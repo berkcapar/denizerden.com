@@ -3,8 +3,8 @@ import {SoloCard} from './WorkCard'
 
 const SoloWorks = ({ solocontents }) => {
   return (
-    <div>
-      <h1 className="headtext">Solo Works</h1>
+    <div className="container">
+      <h2 className="solo-title">Solo Works</h2>
       <div className="solocontentcards">
         {solocontents.map((solocontent) => (
           <SoloCard key={solocontent.id} solocontent={solocontent} />
@@ -12,17 +12,13 @@ const SoloWorks = ({ solocontents }) => {
       </div>
       <style jsx>
         {`
-          .headtext {
-            display: flex;
-            justify-content: center;
-            color: white;
-          }
-          @media screen and (min-width: 480px)
-            .solocontentcards {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-          }
+        .container{
+          display:flex;
+          flex-direction: column;
+        }
+        .solo-title{
+          margin: 2rem auto;
+        }
         `}
       </style>
     </div>
