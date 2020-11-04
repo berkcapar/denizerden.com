@@ -1,5 +1,5 @@
 import CollabWorks from './CollabWorks'
-import MovieArtSetWorks from './MovieartsetWorks'
+import MovieArtSetWorks from './MovieArtSetWorks'
 import PastShowWorks from './PastShowWorks'
 import ProjectsNav from './ProjectsNav'
 import SoloWorks from './SoloWorks'
