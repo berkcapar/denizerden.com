@@ -86,7 +86,7 @@ export const PastShowCard = ({ pastshowscontent }) => {
         >
           <a>
             <div className="cardinfo">
-            <img src={pastshowscontent.coverimageUrl} />
+            <img className="cardimage" src={pastshowscontent.coverimageUrl} />
             <h3>{pastshowscontent.title}</h3>
             <p className="year"> {pastshowscontent.year}</p>
             </div>
@@ -123,7 +123,7 @@ export const MovieArtSetCard = ({ movieartsetcontent }) => {
         >
           <a>
             <div className="cardinfo">
-            <img src={movieartsetcontent.coverimageUrl} />
+            <img className="cardimage" src={movieartsetcontent.coverimageUrl} />
             <h3>{movieartsetcontent.title}</h3>
             <p className="year"> {movieartsetcontent.year}</p>
             </div>
