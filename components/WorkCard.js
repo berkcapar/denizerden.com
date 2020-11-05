@@ -19,7 +19,7 @@ export const SoloCard = ({ solocontent }) => {
         {`
          .solocard{
            width: 90%;
-           margin: 0 auto;        
+           margin: 0 auto;       
          }
          .solocard a{
           text-decoration: none;
@@ -32,8 +32,7 @@ export const SoloCard = ({ solocontent }) => {
          }
          .year{
            margin-top:0
-         }
-         }
+         }         
         `}
       </style>
     </div>

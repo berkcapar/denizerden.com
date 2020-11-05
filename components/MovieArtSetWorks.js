@@ -18,9 +18,18 @@ const MovieArtSetWorks = ({ movieartsetcontents }) => {
          .container{
           display:flex;
           flex-direction: column;
+          width: 90%;
+          margin: 0 auto;
         }
         .solo-title{
           margin: 2rem auto;
+        }
+        @media(min-width:675px){
+          .movieartsetcards{
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;   
+          }
         }
           
         `}
