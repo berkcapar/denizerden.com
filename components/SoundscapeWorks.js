@@ -1,17 +1,17 @@
 import React from 'react'
-import { MovieArtSetCard } from './WorkCard'
+import { SoundscapeCard } from './WorkCard'
 
-const MovieArtSetWorks = ({ movieartsetcontents }) => {
+const SoundscapeWorks = ({ soundscapecontents }) => {
   return (
     <div className="container">
-      <h2 id="movieartset" className="solo-title">
-        Video - Mixtape
+      <h2 id="collabrations" className="solo-title">
+        Soundscapes
       </h2>
-      <div className="movieartsetcards">
-        {movieartsetcontents.map((movieartsetcontent) => (
-          <MovieArtSetCard
-            key={movieartsetcontent.id}
-            movieartsetcontent={movieartsetcontent}
+      <div className="collabcontentcards">
+        {soundscapecontents.map((soundscapecontent) => (
+          <SoundscapeCard
+            key={soundscapecontent.id}
+            soundscapecontent={soundscapecontent}
           />
         ))}
       </div>
@@ -27,7 +27,7 @@ const MovieArtSetWorks = ({ movieartsetcontents }) => {
             margin: 2rem auto;
           }
           @media (min-width: 675px) {
-            .movieartsetcards {
+            .collabcontentcards {
               display: flex;
               flex-wrap: wrap;
               justify-content: space-around;
@@ -39,4 +39,4 @@ const MovieArtSetWorks = ({ movieartsetcontents }) => {
   )
 }
 
-export default MovieArtSetWorks
+export default SoundscapeWorks

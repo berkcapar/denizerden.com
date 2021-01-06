@@ -5,17 +5,21 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "server": "json-server -p3001 --watch db.json"
   },
   "dependencies": {
     "gray-matter": "^4.0.2",
+    "isomorphic-fetch": "^3.0.0",
     "next": "10.0.0",
     "raw-loader": "^4.0.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "react-markdown": "^5.0.2"
+    "react-markdown": "^5.0.3",
+    "slug": "^4.0.2"
   },
   "devDependencies": {
+    "json-server": "^0.16.3",
     "prettier": "^2.1.2"
   }
 }

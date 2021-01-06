@@ -7,24 +7,21 @@ body {
   margin: 0;
   font-family: 
     'Ubuntu', sans-serif;
-  font-size:  1.125 rem;
+  font-size: 0.9rem;
 }
 
 img{
-  max-width: 300px;
-  display: block;
+  max-width: 350px;
 }
 
 .cardimage{
   width: 70%;   
 }
 
-
-
 h1,
 h2,
 h3{
-  font-weight: 600px;
+  font-weight: 550;
   color: #e1bfd1;
 }
 

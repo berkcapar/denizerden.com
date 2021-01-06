@@ -1,4 +1,3 @@
-
 const ProjectsNav = () => {
   return (
     <div className="container">
@@ -7,7 +6,7 @@ const ProjectsNav = () => {
           <a href="#soloworks">SOLO</a>
         </label>
         <label>
-          <a href="#collabrations">COLLABRATIONS</a>
+          <a href="#collabrations">SOUNDSCAPES</a>
         </label>
         <label>
           <a href="#pastshows">PAST SHOWS</a>
@@ -24,11 +23,11 @@ const ProjectsNav = () => {
             padding: 1.5rem;
             display: flex;
             justify-content: center;
-            margin:0 auto;
-            max-width: 1200px; 
+            margin: 0 auto;
+            max-width: 1200px;
           }
           nav label {
-           margin: 0 2em; 
+            margin: 0 2em;
           }
           nav a {
             color: #e1bfd1;
@@ -38,12 +37,12 @@ const ProjectsNav = () => {
           a:hover {
             color: white;
           }
-          @media(max-width:675px){
-            nav{
-              flex-direction:column;       
+          @media (max-width: 675px) {
+            nav {
+              flex-direction: column;
             }
-            nav label{
-              margin: 1em auto;        
+            nav label {
+              margin: 1em auto;
             }
           }
         `}

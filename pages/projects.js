@@ -4,10 +4,9 @@ import ProjectsPage from '../components/ProjectsPage'
 const Projects = () => {
   return (
     <div>
-    <Layout/>
-    <ProjectsPage/>    
+      <Layout />
+      <ProjectsPage />
     </div>
-    
   )
 }
 
