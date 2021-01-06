@@ -4,7 +4,7 @@ import { SoundscapeCard } from './WorkCard'
 const SoundscapeWorks = ({ soundscapecontents }) => {
   return (
     <div className="container">
-      <h2 id="collabrations" className="solo-title">
+      <h2 id="soundscape" className="solo-title">
         Soundscapes
       </h2>
       <div className="collabcontentcards">
@@ -23,9 +23,7 @@ const SoundscapeWorks = ({ soundscapecontents }) => {
             width: 90%;
             margin: 0 auto;
           }
-          .solo-title {
-            margin: 2rem auto;
-          }
+
           @media (min-width: 675px) {
             .collabcontentcards {
               display: flex;

@@ -103,14 +103,14 @@ const pastshowscontents = [
 const soundscapecontents = [
   {
     id: 1,
-    title: 'IDA',
+    title: 'Your Planet Calling: IDA',
     year: '2019',
     coverimageUrl: '/IDA.jpg'
   },
 
   {
     id: 2,
-    title: 'SALDA',
+    title: 'Your Planet Calling: SALDA',
     year: '2019',
     coverimageUrl: '/superscience.jpg'
   }
@@ -143,9 +143,24 @@ const ProjectsPage = () => {
     <div>
       <ProjectsNav />
       <SoloWorks solocontents={solocontents} />
-      <PastShowWorks pastshowscontents={pastshowscontents} />
-      <MovieArtSetWorks movieartsetcontents={movieartsetcontents} />
-      <SoundscapeWorks soundscapecontents={soundscapecontents} />
+      <div className="pastshows-container">
+        <PastShowWorks pastshowscontents={pastshowscontents} />
+      </div>
+      <div className="video-mixtape-container">
+        <MovieArtSetWorks movieartsetcontents={movieartsetcontents} />
+      </div>
+      <div className="soundscape-container">
+        <SoundscapeWorks soundscapecontents={soundscapecontents} />
+      </div>
+      <style jsx>
+        {`
+          .pastshows-container,
+          .video-mixtape-container,
+          .soundscape-container {
+            margin-top: 4rem;
+          }
+        `}
+      </style>
     </div>
   )
 }

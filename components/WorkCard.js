@@ -49,7 +49,7 @@ export const SoundscapeCard = ({ soundscapecontent }) => {
       <div className="collabcard">
         <Link
           href="/projects/[title]"
-          as={`/projects/${soundscapecontent.title}`}
+          as={`/projects/${slug(soundscapecontent.title)}`}
         >
           <a>
             <div className="cardinfo">
@@ -89,7 +89,7 @@ export const PastShowCard = ({ pastshowscontent }) => {
       <div className="pastshowcard">
         <Link
           href="/projects/[title]"
-          as={`/projects/${pastshowscontent.title}`}
+          as={`/projects/${slug(pastshowscontent.title)}`}
         >
           <a>
             <div className="cardinfo">
@@ -126,7 +126,7 @@ export const MovieArtSetCard = ({ movieartsetcontent }) => {
       <div className="movieartsetcard">
         <Link
           href="/projects/[title]"
-          as={`/projects/${movieartsetcontent.title}`}
+          as={`/projects/${slug(movieartsetcontent.title)}`}
         >
           <a>
             <div className="cardinfo">

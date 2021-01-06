@@ -18,9 +18,7 @@ const SoloWorks = ({ solocontents }) => {
             width: 90%;
             margin: 0 auto;
           }
-          .solo-title {
-            margin: 2rem auto;
-          }
+
           @media (min-width: 675px) {
             .solocontentcards {
               display: flex;

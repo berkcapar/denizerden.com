@@ -6,13 +6,13 @@ const ProjectsNav = () => {
           <a href="#soloworks">SOLO</a>
         </label>
         <label>
-          <a href="#collabrations">SOUNDSCAPES</a>
-        </label>
-        <label>
           <a href="#pastshows">PAST SHOWS</a>
         </label>
         <label>
-          <a href="#movieartset">MOVIE/ART/MIXTAPE</a>
+          <a href="#movieartset">VIDEO - MIXTAPE</a>
+        </label>
+        <label>
+          <a href="#soundscape">SOUNDSCAPE</a>
         </label>
       </nav>
 
