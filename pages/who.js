@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import Layout from '../components/Layout'
+import Footer from '../components/Footer'
 
 export async function getStaticProps() {
   const siteData = await import(`../config.json`)
@@ -28,6 +29,7 @@ const Who = ({ content, data }) => (
       <h2 className="deniz-erden">DENİZ ERDEN</h2>
       <ReactMarkdown children={content} />
     </div>
+    <Footer />
     <style jsx>
       {`
         .who-content {

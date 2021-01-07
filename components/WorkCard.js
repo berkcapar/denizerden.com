@@ -159,3 +159,39 @@ export const MovieArtSetCard = ({ movieartsetcontent }) => {
     </div>
   )
 }
+export const FeaturedCard = ({ featuredcontent }) => {
+  return (
+    <div className="movieartsetcard-container">
+      <div className="movieartsetcard">
+        <Link
+          href="/projects/[title]"
+          as={`/projects/${slug(featuredcontent.title)}`}
+        >
+          <a>
+            <div className="cardinfo">
+              <img className="cardimage" src={featuredcontent.coverimageUrl} />
+              <h3>{featuredcontent.title}</h3>
+              <p className="year"> {featuredcontent.year}</p>
+            </div>
+          </a>
+        </Link>
+      </div>
+      <style jsx>
+        {`
+          .movieartsetcard {
+            width: 90%;
+            margin: 0 auto;
+          }
+          .cardinfo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .year {
+            margin-top: 0;
+          }
+        `}
+      </style>
+    </div>
+  )
+}
