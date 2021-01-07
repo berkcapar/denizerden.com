@@ -11,7 +11,11 @@ export const SoloCard = ({ solocontent }) => {
         >
           <a>
             <div className="cardinfo">
-              <img className="cardimage" src={solocontent.coverimageUrl} />
+              <img
+                className="cardimage"
+                alt={solocontent.alt}
+                src={solocontent.coverimageUrl}
+              />
               <h3 className="title">{solocontent.title}</h3>
               <p className="year"> {solocontent.year}</p>
             </div>
@@ -56,6 +60,7 @@ export const SoundscapeCard = ({ soundscapecontent }) => {
               <img
                 className="cardimage"
                 src={soundscapecontent.coverimageUrl}
+                alt={soundscapecontent.alt}
               />
               <h3 className="title">{soundscapecontent.title}</h3>
               <p className="year"> {soundscapecontent.year}</p>
@@ -97,7 +102,11 @@ export const PastShowCard = ({ pastshowscontent }) => {
         >
           <a>
             <div className="cardinfo">
-              <img className="cardimage" src={pastshowscontent.coverimageUrl} />
+              <img
+                className="cardimage"
+                alt={pastshowscontent.alt}
+                src={pastshowscontent.coverimageUrl}
+              />
               <h3>{pastshowscontent.title}</h3>
               <p className="year"> {pastshowscontent.year}</p>
             </div>
@@ -141,6 +150,7 @@ export const MovieArtSetCard = ({ movieartsetcontent }) => {
               <img
                 className="cardimage"
                 src={movieartsetcontent.coverimageUrl}
+                alt={movieartsetcontent.alt}
               />
               <h3>{movieartsetcontent.title}</h3>
               <p className="year"> {movieartsetcontent.year}</p>
@@ -181,7 +191,11 @@ export const FeaturedCard = ({ featuredcontent }) => {
         >
           <a>
             <div className="cardinfo">
-              <img className="cardimage" src={featuredcontent.coverimageUrl} />
+              <img
+                className="cardimage"
+                alt={featuredcontent.alt}
+                src={featuredcontent.coverimageUrl}
+              />
               <h3>{featuredcontent.title}</h3>
               <p className="year"> {featuredcontent.year}</p>
             </div>

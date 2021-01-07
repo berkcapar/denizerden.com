@@ -11,9 +11,10 @@ const Layout = ({ children }) => {
           src="https://kit.fontawesome.com/c0e82ecf0e.js"
           crossOrigin="anonymous"
         ></script>
-        <title>Deniz Erden</title>
+        <title>Deniz Erden - Official Web Site</title>
         <meta
           name="viewport"
+          description="Official Web Site"
           content="initial-scale=1.0, width= device-width"
         />
       </Head>

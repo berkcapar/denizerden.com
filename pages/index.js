@@ -29,19 +29,22 @@ const featuredcontents = [
     id: 1,
     title: 'Japan Tour',
     year: '2019',
-    coverimageUrl: '/japan3.jpg'
+    coverimageUrl: '/japan3.jpg',
+    alt: 'Japonya'
   },
   {
     id: 2,
     title: 'Body',
     year: '2020',
-    coverimageUrl: '/body.png'
+    coverimageUrl: '/body.png',
+    alt: 'Body'
   },
   {
     id: 3,
     title: 'Root Radio',
     year: 'First tuesday of every month',
-    coverimageUrl: '/root.png'
+    coverimageUrl: '/root.png',
+    alt: 'root radio'
   }
 ]
 
