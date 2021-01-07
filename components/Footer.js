@@ -5,19 +5,28 @@ const Footer = () => {
     <footer>
       <h3 className="follow-text">Go Follow Me!</h3>
       <div className="icons">
-        <a href="https://www.instagram.com/denizerden/">
+        <a aria-label="Instagram" href="https://www.instagram.com/denizerden/">
           <i className="fab fa-instagram fa-2x"></i>
         </a>
-        <a href="https://www.youtube.com/channel/UCaKjcv9ns0qRCicbkjmxIuA">
+        <a
+          aria-label="Youtube"
+          href="https://www.youtube.com/channel/UCaKjcv9ns0qRCicbkjmxIuA"
+        >
           <i className="fab fa-youtube fa-2x"></i>
         </a>
-        <a href="https://open.spotify.com/artist/6ugwBDrWkTel2S01VrT72I?si=e1s2MoFnQg-wfXLlhBBG1w">
+        <a
+          aria-label="Spotify"
+          href="https://open.spotify.com/artist/6ugwBDrWkTel2S01VrT72I?si=e1s2MoFnQg-wfXLlhBBG1w"
+        >
           <i className="fab fa-spotify fa-2x"></i>
         </a>
-        <a href="https://soundcloud.com/denizerden">
+        <a aria-label="Soundcloud" href="https://soundcloud.com/denizerden">
           <i className="fab fa-soundcloud fa-2x"></i>
         </a>
-        <a href="https://www.facebook.com/Deniz-Erden-2222409948040540">
+        <a
+          aria-label="Facebook"
+          href="https://www.facebook.com/Deniz-Erden-2222409948040540"
+        >
           <i className="fab fa-facebook fa-2x"></i>
         </a>
       </div>

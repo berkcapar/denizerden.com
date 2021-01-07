@@ -12,11 +12,7 @@ const Layout = ({ children }) => {
           crossOrigin="anonymous"
         ></script>
         <title>Deniz Erden - Official Web Site</title>
-        <meta
-          name="viewport"
-          description="Official Web Site"
-          content="initial-scale=1.0, width= device-width"
-        />
+        <meta name="description" content="Deniz Erden" />
       </Head>
 
       <div className="container container-nav">
