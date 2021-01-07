@@ -25,9 +25,9 @@ export const SoloCard = ({ solocontent }) => {
             width: 90%;
             margin: 0 auto;
           }
-          .solocard a {
-            text-decoration: none;
-            color: white;
+          .solocard:hover {
+            transition-duration: 0.5s;
+            transform: scale(1.2);
           }
           .cardinfo {
             display: flex;
@@ -69,6 +69,10 @@ export const SoundscapeCard = ({ soundscapecontent }) => {
             width: 90%;
             margin: 0 auto;
           }
+          .collabcard:hover {
+            transition-duration: 0.5s;
+            transform: scale(1.2);
+          }
           .cardinfo {
             display: flex;
             flex-direction: column;
@@ -105,6 +109,10 @@ export const PastShowCard = ({ pastshowscontent }) => {
           .pastshowcard {
             width: 90%;
             margin: 0 auto;
+          }
+          .pastshowcard:hover {
+            transition-duration: 0.5s;
+            transform: scale(1.2);
           }
           .cardinfo {
             display: flex;
@@ -146,6 +154,10 @@ export const MovieArtSetCard = ({ movieartsetcontent }) => {
             width: 90%;
             margin: 0 auto;
           }
+          .movieartsetcard:hover {
+            transition-duration: 0.5s;
+            transform: scale(1.2);
+          }
           .cardinfo {
             display: flex;
             flex-direction: column;
@@ -181,6 +193,10 @@ export const FeaturedCard = ({ featuredcontent }) => {
           .movieartsetcard {
             width: 90%;
             margin: 0 auto;
+          }
+          .movieartsetcard:hover {
+            transition-duration: 0.5s;
+            transform: scale(1.2);
           }
           .cardinfo {
             display: flex;
