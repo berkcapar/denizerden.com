@@ -29,7 +29,9 @@ const Who = ({ content, data }) => (
       <h2 className="deniz-erden">DENİZ ERDEN</h2>
       <ReactMarkdown children={content} />
     </div>
-    <Footer />
+    <div className="footer">
+      <Footer />
+    </div>
     <style jsx>
       {`
         .who-content {
@@ -39,6 +41,9 @@ const Who = ({ content, data }) => (
         .deniz-erden {
           text-align: center;
           margin-bottom: 1.5rem;
+        }
+        .footer {
+          padding-top: 8%;
         }
       `}
     </style>

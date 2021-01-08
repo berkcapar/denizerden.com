@@ -8,6 +8,7 @@ body {
   font-family: 
     'Ubuntu', sans-serif;
   font-size: 0.9rem;
+  min-height: calc(100vh - 2rem);
 }
 
 img{
