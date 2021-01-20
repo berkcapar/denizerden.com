@@ -1,13 +1,12 @@
-import React from 'react'
-import { SoloCard } from './WorkCard'
+import { PianoCard } from './WorkCard'
 
-const SoloWorks = ({ solocontents }) => {
+const PianoWorks = ({ pianocontents }) => {
   return (
     <div className="container">
-      <h2 className="solo-title">Electronic Works</h2>
-      <div className="solocontentcards">
-        {solocontents.map((solocontent) => (
-          <SoloCard key={solocontent.id} solocontent={solocontent} />
+      <h2 className="solo-title">Piano Compositions</h2>
+      <div className="pianocontentcards">
+        {pianocontents.map((pianocontent) => (
+          <PianoCard key={pianocontent.id} pianocontent={pianocontent} />
         ))}
       </div>
       <style jsx>
@@ -20,7 +19,7 @@ const SoloWorks = ({ solocontents }) => {
           }
 
           @media (min-width: 675px) {
-            .solocontentcards {
+            .pianocontentcards {
               display: flex;
               flex-wrap: wrap;
               justify-content: space-around;
@@ -32,4 +31,4 @@ const SoloWorks = ({ solocontents }) => {
   )
 }
 
-export default SoloWorks
+export default PianoWorks

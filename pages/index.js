@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import Footer from '../components/Footer'
 import FeaturedWorks from '../components/FeaturedWorks'
 import Link from 'next/link'
+import LivePiano from '../components/LivePiano'
 
 export async function getStaticProps() {
   const siteData = await import(`../config.json`)
@@ -42,9 +43,33 @@ const featuredcontents = [
   {
     id: 3,
     title: 'Root Radio',
-    year: 'First tuesday of every month',
+    year: 'Second tuesday of every month',
     coverimageUrl: '/root.png',
     alt: 'root radio'
+  }
+]
+
+const livepiano = [
+  {
+    id: 1,
+    title: 'Gelmiş ve Geçmiştir',
+    year: '2019',
+    coverimageUrl: '/gelmis_ve_gecmistir.png',
+    alt: 'Gelmiş ve Geçmiştir'
+  },
+  {
+    id: 2,
+    title: 'Parmak Uçları Suya Uzanan Bir Çizgide',
+    year: '2019',
+    coverimageUrl: '/parmak.png',
+    alt: 'Parmak Uçları Suya Uzanan Bir Çizgide'
+  },
+  {
+    id: 3,
+    title: 'Moon Around',
+    year: '2018',
+    coverimageUrl: '/moonaround.jpg',
+    alt: 'Moon Around'
   }
 ]
 
@@ -60,7 +85,7 @@ const Index = ({ content }) => {
           <ReactMarkdown children={content} />
         </div>
 
-        <Link href="/bio">
+        <Link href="/who">
           <a>
             <div className="bio-button">
               <p>Read Full Bio</p>
@@ -69,6 +94,7 @@ const Index = ({ content }) => {
         </Link>
       </div>
       <FeaturedWorks featuredcontents={featuredcontents} />
+      <LivePiano livepiano={livepiano} />
 
       <div className="footer">
         <Footer />

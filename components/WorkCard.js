@@ -225,3 +225,95 @@ export const FeaturedCard = ({ featuredcontent }) => {
     </div>
   )
 }
+
+export const LivePianoCard = ({ livepianocontent }) => {
+  return (
+    <div className="livepianocard-container">
+      <div className="livepianocard">
+        <Link
+          href="/projects/[title]"
+          as={`/projects/${slug(livepianocontent.title)}`}
+        >
+          <a>
+            <div className="cardinfo">
+              <img
+                className="cardimage"
+                alt={livepianocontent.alt}
+                src={livepianocontent.coverimageUrl}
+              />
+              <h3>{livepianocontent.title}</h3>
+              <p className="year"> {livepianocontent.year}</p>
+            </div>
+          </a>
+        </Link>
+      </div>
+      <style jsx>
+        {`
+          .livepianocard {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+          }
+          .livepianocard:hover {
+            transition-duration: 0.5s;
+            transform: scale(1.2);
+          }
+          .cardinfo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .year {
+            margin-top: 0;
+          }
+        `}
+      </style>
+    </div>
+  )
+}
+
+export const PianoCard = ({ pianocontent }) => {
+  return (
+    <div className="pianocard-container">
+      <div className="pianocard">
+        <Link
+          href="/projects/[title]"
+          as={`/projects/${slug(pianocontent.title)}`}
+        >
+          <a>
+            <div className="cardinfo">
+              <img
+                className="cardimage"
+                alt={pianocontent.alt}
+                src={pianocontent.coverimageUrl}
+              />
+              <h3>{pianocontent.title}</h3>
+              <p className="year"> {pianocontent.year}</p>
+            </div>
+          </a>
+        </Link>
+      </div>
+      <style jsx>
+        {`
+          .pianocard {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+          }
+          .pianocard:hover {
+            transition-duration: 0.5s;
+            transform: scale(1.2);
+          }
+          .cardinfo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .year {
+            margin-top: 0;
+          }
+        `}
+      </style>
+    </div>
+  )
+}

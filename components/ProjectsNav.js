@@ -3,7 +3,10 @@ const ProjectsNav = () => {
     <div className="container">
       <nav>
         <label>
-          <a href="#soloworks">SOLO</a>
+          <a href="#soloworks">PIANO PIECES</a>
+        </label>
+        <label>
+          <a href="#soloworks">ELECTRONIC</a>
         </label>
         <label>
           <a href="#pastshows">PAST SHOWS</a>
