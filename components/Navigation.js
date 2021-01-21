@@ -33,7 +33,7 @@ const Navigation = () => {
         }
         @media (max-width: 675px) {
           nav {
-            border: 1px solid red;
+           
           }
           nav a {
             margin: 1em 0.5em;
