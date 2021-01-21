@@ -38,8 +38,7 @@ const LivePiano = ({ livepiano }) => {
           @media (min-width: 675px) {
             .livepiano-cards {
               display: flex;
-              width: 80%;
-              margin: 3rem auto;
+              justify-content: center;
             }
           }
         `}

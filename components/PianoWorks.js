@@ -3,7 +3,9 @@ import { PianoCard } from './WorkCard'
 const PianoWorks = ({ pianocontents }) => {
   return (
     <div className="container">
-      <h2 className="solo-title">Piano Compositions</h2>
+      <h2 id="pianopieces" className="solo-title">
+        Piano Compositions
+      </h2>
       <div className="pianocontentcards">
         {pianocontents.map((pianocontent) => (
           <PianoCard key={pianocontent.id} pianocontent={pianocontent} />

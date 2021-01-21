@@ -6,9 +6,11 @@ const Navigation = () => {
       <Link href="/who">
         <a>BIO</a>
       </Link>
-
       <Link href="/projects">
         <a>PROJECTS</a>
+      </Link>
+      <Link href="/videos">
+        <a>VIDEOS</a>
       </Link>
 
       <Link href="/live">

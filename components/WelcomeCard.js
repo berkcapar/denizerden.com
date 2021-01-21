@@ -1,10 +1,18 @@
-import React from 'react'
-import ReactMarkdown from 'react-markdown'
-
 const WelcomeCard = () => {
   return (
-    <div>
-      <h2>Hello Music Lover</h2>
+    <div className="w-img">
+      <img className="image" src="/denizgiris.png" />
+      <style jsx>
+        {`
+          .w-img {
+            display: flex;
+            justify-content: center;
+          }
+          .image {
+            width: 100%;
+          }
+        `}
+      </style>
     </div>
   )
 }

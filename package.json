@@ -16,6 +16,8 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-markdown": "^5.0.3",
+    "react-parallax": "^3.1.2",
+    "react-scroll-parallax": "^2.3.5",
     "slug": "^4.0.2"
   },
   "devDependencies": {

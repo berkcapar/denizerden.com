@@ -40,17 +40,66 @@ const solocontents = [
     year: '2020',
     coverimageUrl: '/quarentine.png',
     alt: 'Quarantine Improvisation'
+  },
+  {
+    id: 6,
+    title: 'Riders w/MEY',
+    year: '2020',
+    coverimageUrl: '/riders.jpg',
+    alt: 'MEY'
+  },
+  {
+    id: 7,
+    title: 'Shadows',
+    year: '2020',
+    coverimageUrl: '/shadows.png',
+    alt: 'shadows'
+  },
+  {
+    id: 8,
+    title: 'A Song For a Snowflakes Dance',
+    year: '2019',
+    coverimageUrl: '/snowflake.png',
+    alt: 'A Song For a Snowflakes Dance'
+  },
+  {
+    id: 9,
+    title: 'A Poem for a Silent Leak',
+    year: '2019',
+    coverimageUrl: '/apoem.png',
+    alt: 'A Poem for a Silent Leak'
+  },
+  {
+    id: 10,
+    title: 'Gelmiş ve Geçmiştir',
+    year: '2019',
+    coverimageUrl: '/gelmis_ve_gecmistir.png',
+    alt: 'Gelmiş ve Geçmiştir'
+  },
+  {
+    id: 11,
+    title: 'Parmak Uçları Suya Uzanan Bir Çizgide',
+    year: '2019',
+    coverimageUrl: '/parmak.png',
+    alt: 'Parmak Uçları Suya Uzanan Bir Çizgide'
+  },
+  {
+    id: 12,
+    title: 'Berceuse',
+    year: '2018',
+    coverimageUrl: '/berceuse.png',
+    alt: 'Berceuse'
+  },
+
+  {
+    id: 13,
+    title: 'Moon Around',
+    year: '2018',
+    coverimageUrl: '/moonaround.jpg',
+    alt: 'Moon Around'
   }
 ]
 const pastshowscontents = [
-  {
-    id: 1,
-    title: 'Electronic Crossovers',
-    year: '2020',
-    coverimageUrl: '/electronic-bridges.jpg',
-    alt: 'Electronic Crossovers'
-  },
-
   {
     id: 2,
     title: 'Super Science - Eser Gündüz',
@@ -69,6 +118,13 @@ const pastshowscontents = [
 const soundscapecontents = [
   {
     id: 1,
+    title: 'Electronic Crossovers',
+    year: '2020',
+    coverimageUrl: '/electronic-bridges.jpg',
+    alt: 'Electronic Crossovers'
+  },
+  {
+    id: 2,
     title: 'Your Planet Calling: IDA',
     year: '2019',
     coverimageUrl: '/IDA.jpg',
@@ -76,11 +132,18 @@ const soundscapecontents = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: 'Your Planet Calling: SALDA',
     year: '2019',
     coverimageUrl: '/superscience.jpg',
     alt: 'SALDA'
+  },
+  {
+    id: 4,
+    title: 'Water Forms',
+    year: '2018',
+    coverimageUrl: '/waterforms.png',
+    alt: 'Water Forms'
   }
 ]
 
@@ -109,71 +172,11 @@ const movieartsetcontents = [
   }
 ]
 
-const pianocontents = [
-  {
-    id: 1,
-    title: 'A Song For a Snowflakes Dance',
-    year: '2019',
-    coverimageUrl: '/snowflake.png',
-    alt: 'A Song For a Snowflakes Dance'
-  },
-  {
-    id: 2,
-    title: 'A Poem for a Silent Leak',
-    year: '2019',
-    coverimageUrl: '/apoem.png',
-    alt: 'A Poem for a Silent Leak'
-  },
-  {
-    id: 3,
-    title: 'Gelmiş ve Geçmiştir',
-    year: '2019',
-    coverimageUrl: '/gelmis_ve_gecmistir.png',
-    alt: 'Gelmiş ve Geçmiştir'
-  },
-  {
-    id: 4,
-    title: 'Parmak Uçları Suya Uzanan Bir Çizgide',
-    year: '2019',
-    coverimageUrl: '/parmak.png',
-    alt: 'Parmak Uçları Suya Uzanan Bir Çizgide'
-  },
-  {
-    id: 5,
-    title: 'Berceuse',
-    year: '2018',
-    coverimageUrl: '/berceuse.png',
-    alt: 'Berceuse'
-  },
-
-  {
-    id: 6,
-    title: 'Water Forms',
-    year: '2018',
-    coverimageUrl: '/waterforms.png',
-    alt: 'Water Forms'
-  },
-  {
-    id: 7,
-    title: 'Moon Around',
-    year: '2018',
-    coverimageUrl: '/moonaround.jpg',
-    alt: 'Moon Around'
-  }
-]
-
 const ProjectsPage = () => {
   return (
     <div>
       <ProjectsNav />
-      <PianoWorks pianocontents={pianocontents} />
       <SoloWorks solocontents={solocontents} />
-      <div className="pastshows-container">
-        <PastShowWorks pastshowscontents={pastshowscontents} />
-      </div>
-      <div className="video-mixtape-container">
-        <MovieArtSetWorks movieartsetcontents={movieartsetcontents} />
-      </div>
       <div className="soundscape-container">
         <SoundscapeWorks soundscapecontents={soundscapecontents} />
       </div>

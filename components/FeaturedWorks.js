@@ -39,8 +39,7 @@ const FeaturedWorks = ({ featuredcontents }) => {
           @media (min-width: 675px) {
             .featured-cards {
               display: flex;
-              width: 80%;
-              margin: 3rem auto;
+              justify-content: center;
             }
           }
         `}

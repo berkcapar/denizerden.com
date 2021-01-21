@@ -1,12 +1,11 @@
-import Layout from '../../components/Layout'
+import Layout from '../components/Layout'
 
-const JapanTour = () => {
+const Videos = () => {
   return (
     <div>
       <Layout />
       <div className="container">
-        <h2 className="title">Japan Tour Live Performances</h2>
-        <p className="year">2019</p>
+        <h2 className="title">Here are some piano recordings </h2>
         <div className="iframe-container">
           <h3>Fazıl Say - Sarı Gelin</h3>
           <iframe
@@ -54,6 +53,41 @@ const JapanTour = () => {
             allowfullscreen
           ></iframe>
         </div>
+        <div className="iframe-container">
+          <h3>Beethoven Sonata Op.109 No.30 </h3>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/g891feahlFU"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className="iframe-container">
+          <h3>Debussy - Mouvement </h3>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/movldcTwPkQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className="iframe-container">
+          <h3> F. Chopin - Ballade no.1 </h3>
+          <iframe
+            src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F2222409948040540%2Fvideos%2F727746300966202%2F&show_text=false&width=560"
+            width="560"
+            height="314"
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            allowFullScreen="true"
+          ></iframe>
+        </div>
       </div>
 
       <style jsx>
@@ -85,10 +119,13 @@ const JapanTour = () => {
           .iframe-container {
             margin-bottom: 2rem;
           }
+          .title {
+            margin-bottom: 2rem;
+          }
         `}
       </style>
     </div>
   )
 }
 
-export default JapanTour
+export default Videos

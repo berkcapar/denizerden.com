@@ -1,29 +1,28 @@
-import Layout from '../components/Layout'
 import WelcomeCard from '../components/WelcomeCard'
 import ReactMarkdown from 'react-markdown'
 import Footer from '../components/Footer'
 import FeaturedWorks from '../components/FeaturedWorks'
 import Link from 'next/link'
 import LivePiano from '../components/LivePiano'
+import Layout from '../components/Layout'
 
-export async function getStaticProps() {
-  const siteData = await import(`../config.json`)
-  const fs = require('fs')
-  const matter = require('gray-matter')
-  const markdownContent = fs.readFileSync(
-    `${process.cwd()}/content/welcome.md`,
-    'utf-8'
-  )
-  const { data, content } = matter(markdownContent)
-  return {
-    props: {
-      data,
-      content,
-      title: siteData.default.title,
-      description: siteData.default.description
-    }
-  }
-}
+// export async function getStaticProps() {
+//  const siteData = await import(`../config.json`)
+// const fs = require('fs')
+// const matter = require('gray-matter')
+// const markdownContent = fs.readFileSync(
+//    `${process.cwd()}/content/welcome.md`,
+//    'utf-8'
+//  )
+//  const { data, content } = matter(markdownContent)
+//  return {
+//    props: {
+//     data,
+//     content,
+//     title: siteData.default.title,
+//     description: siteData.default.description
+//   }
+// }}
 
 const featuredcontents = [
   {
@@ -75,23 +74,10 @@ const livepiano = [
 
 const Index = ({ content }) => {
   return (
-    <div>
+    <div className="container">
       <Layout />
       <div className="welcomearea">
-        <div className="text">
-          <WelcomeCard />
-        </div>
-        <div className="content">
-          <ReactMarkdown children={content} />
-        </div>
-
-        <Link href="/who">
-          <a>
-            <div className="bio-button">
-              <p>Read Full Bio</p>
-            </div>
-          </a>
-        </Link>
+        <img className="image" src="/denizgiris.png" />
       </div>
       <FeaturedWorks featuredcontents={featuredcontents} />
       <LivePiano livepiano={livepiano} />
@@ -104,10 +90,12 @@ const Index = ({ content }) => {
           .welcomearea {
             display: flex;
             flex-direction: column;
-            margin: 2rem auto;
-            width: 80%;
+            align-items: center;
+            padding-top: 3%;
+            padding-bottom: 3%;
           }
-          .content {
+          .image {
+            width: 70%;
           }
           .text {
             text-align: center;
@@ -115,14 +103,15 @@ const Index = ({ content }) => {
           .bio-button {
             border: 1px solid white;
             border-radius: 0.8rem;
-            width: 30%;
+            width: 100%;
             margin: 1rem auto;
+            padding: 0.75rem;
             text-align: center;
           }
 
           @media (min-width: 675px) {
             .welcomearea {
-              width: 30%;
+              width: 100%;
             }
           }
         `}

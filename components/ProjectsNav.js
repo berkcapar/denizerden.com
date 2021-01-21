@@ -3,16 +3,7 @@ const ProjectsNav = () => {
     <div className="container">
       <nav>
         <label>
-          <a href="#soloworks">PIANO PIECES</a>
-        </label>
-        <label>
-          <a href="#soloworks">ELECTRONIC</a>
-        </label>
-        <label>
-          <a href="#pastshows">PAST SHOWS</a>
-        </label>
-        <label>
-          <a href="#movieartset">VIDEO - MIXTAPE</a>
+          <a href="#pianopieces">PIANO + ELECTRONIC WORKS</a>
         </label>
         <label>
           <a href="#soundscape">SOUNDSCAPE</a>
