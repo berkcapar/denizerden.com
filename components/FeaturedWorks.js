@@ -32,7 +32,7 @@ const FeaturedWorks = ({ featuredcontents }) => {
           .all-button {
             border: 1px solid white;
             border-radius: 0.8rem;
-            width: 15%;
+            width: 30%;
             margin: 3rem auto;
             text-align: center;
           }
@@ -40,6 +40,9 @@ const FeaturedWorks = ({ featuredcontents }) => {
             .featured-cards {
               display: flex;
               justify-content: center;
+            }
+            .all-button {
+              width: 10%;
             }
           }
         `}
