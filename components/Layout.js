@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
           data-domain="denizerden.com"
           src="https://plausible.io/js/plausible.js"
         ></script>
-        <title>Deniz Erden - Official Web Site</title>
+        <title>Deniz Erden - Pianist&Sound Artist</title>
         <meta name="description" content="Deniz Erden" />
       </Head>
 
