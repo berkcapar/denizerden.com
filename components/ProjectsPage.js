@@ -29,62 +29,56 @@ const solocontents = [
   },
   {
     id: 4,
-    title: 'Quarantine Improvisation Two',
+    title: 'Stay Home',
     year: '2020',
     coverimageUrl: '/quarentine.png',
-    alt: 'Quarantine Improvisation'
+    alt: 'Stay Home'
   },
+
   {
     id: 5,
-    title: 'Quarantine Improvisation One',
-    year: '2020',
-    coverimageUrl: '/quarentine.png',
-    alt: 'Quarantine Improvisation'
-  },
-  {
-    id: 6,
     title: 'Riders w/MEY',
     year: '2020',
     coverimageUrl: '/riders.jpg',
     alt: 'MEY'
   },
   {
-    id: 7,
+    id: 6,
     title: 'Shadows',
     year: '2020',
     coverimageUrl: '/shadows.png',
     alt: 'shadows'
   },
   {
-    id: 8,
+    id: 7,
     title: 'A Song For a Snowflakes Dance',
     year: '2019',
     coverimageUrl: '/snowflake.png',
     alt: 'A Song For a Snowflakes Dance'
   },
   {
-    id: 9,
+    id: 8,
     title: 'A Poem for a Silent Leak',
     year: '2019',
     coverimageUrl: '/apoem.png',
     alt: 'A Poem for a Silent Leak'
   },
   {
-    id: 10,
+    id: 9,
     title: 'Gelmiş ve Geçmiştir',
     year: '2019',
     coverimageUrl: '/gelmis_ve_gecmistir.png',
     alt: 'Gelmiş ve Geçmiştir'
   },
   {
-    id: 11,
+    id: 10,
     title: 'Parmak Uçları Suya Uzanan Bir Çizgide',
     year: '2019',
     coverimageUrl: '/parmak.png',
     alt: 'Parmak Uçları Suya Uzanan Bir Çizgide'
   },
   {
-    id: 12,
+    id: 11,
     title: 'Berceuse',
     year: '2018',
     coverimageUrl: '/berceuse.png',
@@ -92,7 +86,7 @@ const solocontents = [
   },
 
   {
-    id: 13,
+    id: 12,
     title: 'Moon Around',
     year: '2018',
     coverimageUrl: '/moonaround.jpg',

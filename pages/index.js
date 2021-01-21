@@ -79,9 +79,12 @@ const Index = ({ content }) => {
       <div className="welcomearea">
         <img className="image" src="/denizgiris.png" />
       </div>
-      <FeaturedWorks featuredcontents={featuredcontents} />
-      <LivePiano livepiano={livepiano} />
-
+      <div className="featured">
+        <FeaturedWorks featuredcontents={featuredcontents} />
+      </div>
+      <div className="piano">
+        <LivePiano livepiano={livepiano} />
+      </div>
       <div className="footer">
         <Footer />
       </div>
@@ -112,6 +115,10 @@ const Index = ({ content }) => {
           @media (min-width: 675px) {
             .welcomearea {
               width: 100%;
+            }
+            .featured,
+            .piano {
+              padding-top: 2rem;
             }
           }
         `}

@@ -1,14 +1,25 @@
-import React from 'react'
 import Layout from '../../components/Layout'
 
-const QuarentineTwo = () => {
+const StayHome = () => {
   return (
     <div>
       <Layout />
       <div className="container">
-        <h2 className="title">Quarantine Improvisiation Two</h2>
+        <h2 className="title">Stay Home Series</h2>
         <p className="year">2020</p>
         <div className="iframe-container">
+          <h3>Quarentine Improvisations - I</h3>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/mCg6Lt2kJFQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className="iframe-container">
+          <h3>Quarentine Improvisations - II</h3>
           <iframe
             width="560"
             height="315"
@@ -46,10 +57,12 @@ const QuarentineTwo = () => {
           .year {
             margin-bottom: 1em;
           }
+          .iframe-container {
+            margin-bottom: 2rem;
+          }
         `}
       </style>
     </div>
   )
 }
-
-export default QuarentineTwo
+export default StayHome

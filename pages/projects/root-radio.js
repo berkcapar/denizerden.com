@@ -5,34 +5,36 @@ const RootRadio = () => {
   return (
     <div>
       <Layout />
-      <div className="container">
-        <h2 className="title">Root Radio</h2>
-        <p className="year">2020-2021</p>
-        <div className="iframe-container">
-          <iframe
-            width="100%"
-            height="300"
-            scrolling="no"
-            frameborder="no"
-            allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/854866885&color=%23e1bfd1&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-          ></iframe>
-          <div className="soundcloud">
-            <a
-              href="https://soundcloud.com/rootradiolive"
-              title="Root︱روت"
-              target="_blank"
-            >
-              Root︱روت
-            </a>{' '}
-            ·{' '}
-            <a
-              href="https://soundcloud.com/rootradiolive/elektrolit-root-radio-16062020"
-              title="ELEKTROLIT | Root Radio 16/06/2020"
-              target="_blank"
-            >
-              ELEKTROLIT | Root Radio 16/06/2020
-            </a>
+      <div>
+        <div className="container">
+          <h2 className="title">Root Radio</h2>
+          <p className="year">2020-2021</p>
+          <div className="iframe-container">
+            <iframe
+              width="100%"
+              height="300"
+              scrolling="no"
+              frameborder="no"
+              allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/854866885&color=%23e1bfd1&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            ></iframe>
+            <div className="soundcloud">
+              <a
+                href="https://soundcloud.com/rootradiolive"
+                title="Root︱روت"
+                target="_blank"
+              >
+                Root︱روت
+              </a>{' '}
+              ·{' '}
+              <a
+                href="https://soundcloud.com/rootradiolive/elektrolit-root-radio-16062020"
+                title="ELEKTROLIT | Root Radio 16/06/2020"
+                target="_blank"
+              >
+                ELEKTROLIT | Root Radio 16/06/2020
+              </a>
+            </div>
           </div>
         </div>
       </div>

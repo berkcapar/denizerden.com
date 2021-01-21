@@ -19,6 +19,11 @@ const Header = () => {
           .sitetitle a {
             text-decoration: none;
           }
+          @media (max-width: 675px) {
+            .sitetitle h3 {
+              text-align: center;
+            }
+          }
         `}
       </style>
     </div>

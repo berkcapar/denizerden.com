@@ -4,7 +4,7 @@ import Link from 'next/link'
 const LivePiano = ({ livepiano }) => {
   return (
     <div>
-      <h2 className="title">Piano Only Compositions</h2>
+      <h2 className="title">Piano Compositions</h2>
       <div className="livepiano-cards">
         {livepiano.map((livepianocontent) => (
           <LivePianoCard
@@ -13,7 +13,7 @@ const LivePiano = ({ livepiano }) => {
           />
         ))}
       </div>
-      <Link href="/projects">
+      <Link href="/videos">
         <a>
           <div className="all-button">
             <p>Check em all!</p>
