@@ -1,4 +1,5 @@
 import Layout from '../components/Layout'
+import Footer from '../components/Footer'
 
 const Videos = () => {
   return (
@@ -89,6 +90,9 @@ const Videos = () => {
           ></iframe>
         </div>
       </div>
+      <div className="footer">
+        <Footer />
+      </div>
 
       <style jsx>
         {`
@@ -96,8 +100,9 @@ const Videos = () => {
             .iframe-container {
               position: relative;
               width: 100%;
-              padding-bottom: 70.25%;
+              padding-bottom: 100.25%;
               height: 0;
+              margin-bottom: 5rem;
             }
             .iframe-container iframe {
               position: absolute;

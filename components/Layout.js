@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
         <meta name="description" content="Deniz Erden" />
       </Head>
 
-      <div className="container container-nav">
+      <div className="container">
         <div className="header">
           <Header />
         </div>
@@ -31,13 +31,11 @@ const Layout = ({ children }) => {
             width: 90%;
             max-width: 1200px;
             margin: 0 auto;
-          }
-          .container-nav {
             display: flex;
             justify-content: space-between;
           }
           @media (max-width: 675px) {
-            .container-nav {
+            .container {
               flex-direction: column;
             }
           }

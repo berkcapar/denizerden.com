@@ -63,6 +63,10 @@ const Live = () => {
               width: 100%;
               heigth: 100%;
             }
+            .text-container {
+              padding-bottom: 35%;
+              flex-direction: column;
+            }
           }
           .container {
             display: flex;
@@ -90,14 +94,14 @@ const Live = () => {
           }
           .text-container {
             display: flex;
-            justify-content: center;
             align-items: center;
             width: 50%;
             margin: 0 auto;
             margin-top: 3rem;
+            padding-bottom: 12%;
           }
           .text {
-            width: 30%;
+            width: 90%;
             margin-right: 3rem;
           }
         `}

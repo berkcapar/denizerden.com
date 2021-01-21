@@ -42,7 +42,7 @@ const Footer = () => {
           color: white;
         }
         .icons {
-          width: 50%;
+          width: 60%;
           display: flex;
           margin: 1rem;
         }
