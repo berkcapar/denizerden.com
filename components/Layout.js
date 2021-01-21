@@ -11,6 +11,12 @@ const Layout = ({ children }) => {
           src="https://kit.fontawesome.com/c0e82ecf0e.js"
           crossOrigin="anonymous"
         ></script>
+        <script
+          async
+          defer
+          data-domain="denizerden.com"
+          src="https://plausible.io/js/plausible.js"
+        ></script>
         <title>Deniz Erden - Official Web Site</title>
         <meta name="description" content="Deniz Erden" />
       </Head>

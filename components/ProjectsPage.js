@@ -119,7 +119,7 @@ const soundscapecontents = [
   },
   {
     id: 2,
-    title: 'Your Planet Calling: IDA',
+    title: 'Your Planet Calling',
     year: '2019',
     coverimageUrl: '/IDA.jpg',
     alt: 'Your Planet Calling'
@@ -127,17 +127,17 @@ const soundscapecontents = [
 
   {
     id: 3,
-    title: 'Your Planet Calling: SALDA',
+    title: 'départ: for Istanbul Soundscape Project',
     year: '2019',
-    coverimageUrl: '/superscience.jpg',
-    alt: 'SALDA'
+    coverimageUrl: '/depart.jpg',
+    alt: 'haydarpaşa'
   },
   {
     id: 4,
-    title: 'Water Forms',
-    year: '2018',
-    coverimageUrl: '/waterforms.png',
-    alt: 'Water Forms'
+    title: 'Petrarca in borghese',
+    year: '2019',
+    coverimageUrl: '/borg.jpg',
+    alt: 'Petrarca in borghese'
   }
 ]
 
@@ -180,6 +180,7 @@ const ProjectsPage = () => {
           .video-mixtape-container,
           .soundscape-container {
             margin-top: 4rem;
+            text-align: center;
           }
         `}
       </style>

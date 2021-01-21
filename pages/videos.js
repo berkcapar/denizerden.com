@@ -55,7 +55,7 @@ const Videos = () => {
           ></iframe>
         </div>
         <div className="iframe-container">
-          <h3>Beethoven Sonata Op.109 No.30 </h3>
+          <h3>Ludwig van Beethoven Sonata Op.109 No.30 </h3>
           <iframe
             width="560"
             height="315"
@@ -66,7 +66,7 @@ const Videos = () => {
           ></iframe>
         </div>
         <div className="iframe-container">
-          <h3>Debussy - Mouvement </h3>
+          <h3>C. Debussy - Mouvement </h3>
           <iframe
             width="560"
             height="315"
@@ -77,7 +77,7 @@ const Videos = () => {
           ></iframe>
         </div>
         <div className="iframe-container">
-          <h3> F. Chopin - Ballade no.1 </h3>
+          <h3> Super-Science Exhibition Trailer </h3>
           <iframe
             src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F2222409948040540%2Fvideos%2F727746300966202%2F&show_text=false&width=560"
             width="560"
