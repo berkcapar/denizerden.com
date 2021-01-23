@@ -63,7 +63,8 @@ const Footer = () => {
             flex-direction: row;
           }
           .follow-text {
-            width: 30%;
+            width: 40%;
+            margin-top: 1.2rem;
           }
           .icons {
             width: 50%;
