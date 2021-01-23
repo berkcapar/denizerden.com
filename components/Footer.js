@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
       <style jsx>{`
         footer {
-          background-color: #19778a;
+          background-color: darkslategray;
           display: flex;
           justify-content: space-around;
         }
@@ -45,9 +45,11 @@ const Footer = () => {
           width: 60%;
           display: flex;
           margin: 1rem;
+          color: white;
         }
         .icons a {
           margin-right: 1rem;
+          color: white;
         }
         @media (min-width: 675px) {
           footer {
