@@ -5,6 +5,10 @@ const Footer = () => {
     <footer>
       <h3 className="follow-text">Go Follow Me!</h3>
       <div className="icons">
+        <a aria-label="Email" href="mailto:deniz.erdenn@gmail.com">
+          <i class="fas fa-envelope fa-2x"></i>
+        </a>
+
         <a aria-label="Instagram" href="https://www.instagram.com/denizerden/">
           <i className="fab fa-instagram fa-2x"></i>
         </a>
@@ -35,16 +39,17 @@ const Footer = () => {
           background-color: darkslategray;
           display: flex;
           justify-content: space-around;
+          flex-direction: column;
         }
         .follow-text {
           width: 30%;
-          margin-top: 1.2rem;
+          margin: 1rem auto;
           color: white;
         }
         .icons {
-          width: 60%;
+          width: 55%;
           display: flex;
-          margin: 1rem;
+          margin: 1rem auto;
           color: white;
         }
         .icons a {
@@ -55,6 +60,7 @@ const Footer = () => {
           footer {
             width: 50%;
             margin-left: 50%;
+            flex-direction: row;
           }
           .follow-text {
             width: 30%;
