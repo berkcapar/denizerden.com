@@ -26,7 +26,6 @@ const Who = ({ content, data }) => (
   <div>
     <Layout />
     <div className="who-content">
-      <h2 className="deniz-erden">DENİZ ERDEN</h2>
       <ReactMarkdown children={content} />
     </div>
     <div className="footer">
