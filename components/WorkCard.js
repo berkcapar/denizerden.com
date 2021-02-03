@@ -317,3 +317,49 @@ export const PianoCard = ({ pianocontent }) => {
     </div>
   )
 }
+
+export const FeaturedSsCard = ({ featuredsscontent }) => {
+  return (
+    <div className="pianocard-container">
+      <div className="pianocard">
+        <Link
+          href="/projects/[title]"
+          as={`/projects/${slug(featuredsscontent.title)}`}
+        >
+          <a>
+            <div className="cardinfo">
+              <img
+                className="cardimage"
+                alt={featuredsscontent.alt}
+                src={featuredsscontent.coverimageUrl}
+              />
+              <h3>{featuredsscontent.title}</h3>
+              <p className="year"> {featuredsscontent.year}</p>
+            </div>
+          </a>
+        </Link>
+      </div>
+      <style jsx>
+        {`
+          .pianocard {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+          }
+          .pianocard:hover {
+            transition-duration: 0.5s;
+            transform: scale(1.2);
+          }
+          .cardinfo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .year {
+            margin-top: 0;
+          }
+        `}
+      </style>
+    </div>
+  )
+}

@@ -10,7 +10,7 @@ const solocontents = [
     id: 1,
     title: 'Awakening the Sleeping Tiger',
     year: '2020',
-    coverimageUrl: '/awakening.png',
+    coverimageUrl: '/awakening.webp',
     alt: 'Awakening the Sleeping Tiger'
   },
   {

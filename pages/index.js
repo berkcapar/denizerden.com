@@ -2,9 +2,11 @@ import WelcomeCard from '../components/WelcomeCard'
 import ReactMarkdown from 'react-markdown'
 import Footer from '../components/Footer'
 import FeaturedWorks from '../components/FeaturedWorks'
+import FeaturedSs from '../components/FeaturedWorks'
 import Link from 'next/link'
 import LivePiano from '../components/LivePiano'
 import Layout from '../components/Layout'
+import FeaturedSsWorks from '../components/FeaturedSs'
 
 // export async function getStaticProps() {
 //  const siteData = await import(`../config.json`)
@@ -48,6 +50,23 @@ const featuredcontents = [
   }
 ]
 
+const featuredsscontents = [
+  {
+    id: 1,
+    title: 'Your Planet Calling',
+    year: '2019',
+    coverimageUrl: '/IDA.jpg',
+    alt: 'Your Planet Calling'
+  },
+  {
+    id: 2,
+    title: 'Electronic Crossovers',
+    year: '2020',
+    coverimageUrl: '/electronic-bridges.jpg',
+    alt: 'Electronic Crossovers'
+  }
+]
+
 const livepiano = [
   {
     id: 1,
@@ -72,12 +91,15 @@ const livepiano = [
   }
 ]
 
-const Index = ({ content }) => {
+const Index = () => {
   return (
     <div className="container">
       <Layout />
       <div className="welcomearea">
         <img className="image" src="/denizgiris.png" />
+      </div>
+      <div className="featuredss">
+        <FeaturedSsWorks featuredsscontents={featuredsscontents} />
       </div>
       <div className="featured">
         <FeaturedWorks featuredcontents={featuredcontents} />
@@ -117,6 +139,7 @@ const Index = ({ content }) => {
               width: 100%;
             }
             .featured,
+            .featuredss,
             .piano {
               padding-top: 2rem;
             }
