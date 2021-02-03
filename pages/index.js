@@ -36,7 +36,7 @@ const featuredcontents = [
     id: 2,
     title: 'Body',
     year: '2020',
-    coverimageUrl: '/body.png',
+    coverimageUrl: '/body.jp2',
     alt: 'Body'
   },
   {
