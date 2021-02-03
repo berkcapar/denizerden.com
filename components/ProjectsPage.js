@@ -17,7 +17,7 @@ const solocontents = [
     id: 2,
     title: 'Body',
     year: '2020',
-    coverimageUrl: '/body.jp2',
+    coverimageUrl: '/body.webp',
     alt: 'body'
   },
   {
