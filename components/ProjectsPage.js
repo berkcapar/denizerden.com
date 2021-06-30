@@ -7,28 +7,37 @@ import SoundscapeWorks from './SoundscapeWorks'
 
 const solocontents = [
   {
-    id: 1,
+   
+      id: 1,
+      title: 'IRIS',
+      year: '2021',
+      coverimageUrl: '/iris.jpg',
+      alt: 'Iris'
+   
+  },
+  {
+    id: 2,
     title: 'Awakening the Sleeping Tiger',
     year: '2020',
     coverimageUrl: '/awakening.webp',
     alt: 'Awakening the Sleeping Tiger'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Body',
     year: '2020',
     coverimageUrl: '/body.webp',
     alt: 'body'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Lush Town People',
     year: '2020',
     coverimageUrl: '/lush.png',
     alt: 'lush-town-people'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Stay Home',
     year: '2020',
     coverimageUrl: '/quarentine.png',
@@ -36,49 +45,49 @@ const solocontents = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: 'Riders w/MEY',
     year: '2020',
     coverimageUrl: '/riders.jpg',
     alt: 'MEY'
   },
   {
-    id: 6,
+    id: 7,
     title: 'Shadows',
     year: '2020',
     coverimageUrl: '/shadows.png',
     alt: 'shadows'
   },
   {
-    id: 7,
+    id: 8,
     title: 'A Song For a Snowflakes Dance',
     year: '2019',
     coverimageUrl: '/snowflake.png',
     alt: 'A Song For a Snowflakes Dance'
   },
   {
-    id: 8,
+    id: 9,
     title: 'A Poem for a Silent Leak',
     year: '2019',
     coverimageUrl: '/apoem.png',
     alt: 'A Poem for a Silent Leak'
   },
   {
-    id: 9,
+    id: 10,
     title: 'Gelmiş ve Geçmiştir',
     year: '2019',
     coverimageUrl: '/gelmis_ve_gecmistir.png',
     alt: 'Gelmiş ve Geçmiştir'
   },
   {
-    id: 10,
+    id: 11,
     title: 'Parmak Uçları Suya Uzanan Bir Çizgide',
     year: '2019',
     coverimageUrl: '/parmak.png',
     alt: 'Parmak Uçları Suya Uzanan Bir Çizgide'
   },
   {
-    id: 11,
+    id: 12,
     title: 'Berceuse',
     year: '2018',
     coverimageUrl: '/berceuse.png',
@@ -86,7 +95,7 @@ const solocontents = [
   },
 
   {
-    id: 12,
+    id: 13,
     title: 'Moon Around',
     year: '2018',
     coverimageUrl: '/moonaround.jpg',

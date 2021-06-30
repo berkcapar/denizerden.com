@@ -29,20 +29,27 @@ import FeaturedSsWorks from '../components/FeaturedSs'
 const featuredcontents = [
   {
     id: 1,
+    title: 'IRIS',
+    year: '2021',
+    coverimageUrl: '/iris.jpg',
+    alt: 'Iris'
+  },
+  {
+    id: 2,
     title: 'Japan Tour',
     year: '2019',
     coverimageUrl: '/japan3.jpg',
     alt: 'Japonya'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Body',
     year: '2020',
-    coverimageUrl: '/body.webp',
+    coverimageUrl: '/body.png',
     alt: 'Body'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Root Radio',
     year: 'Second tuesday of every month',
     coverimageUrl: '/root.png',
@@ -98,11 +105,11 @@ const Index = () => {
       <div className="welcomearea">
         <img className="image" src="/denizgiris.png" />
       </div>
-      <div className="featuredss">
-        <FeaturedSsWorks featuredsscontents={featuredsscontents} />
-      </div>
       <div className="featured">
         <FeaturedWorks featuredcontents={featuredcontents} />
+      </div>
+      <div className="featuredss">
+        <FeaturedSsWorks featuredsscontents={featuredsscontents} />
       </div>
       <div className="piano">
         <LivePiano livepiano={livepiano} />
