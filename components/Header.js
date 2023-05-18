@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Header = () => {
   return (
     <div className="sitetitle">
-      <Link href="/">
+      <Link href="/" legacyBehavior>
         <a>
           <h1>DENİZ ERDEN</h1>
           <h3>Pianist - Sound Artist</h3>
@@ -27,7 +27,7 @@ const Header = () => {
         `}
       </style>
     </div>
-  )
+  );
 }
 
 export default Header

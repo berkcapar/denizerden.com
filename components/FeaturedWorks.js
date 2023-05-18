@@ -14,7 +14,7 @@ const FeaturedWorks = ({ featuredcontents }) => {
           />
         ))}
       </div>
-      <Link href="/projects">
+      <Link href="/projects" legacyBehavior>
         <a>
           <div className="all-button">
             <p>See All My Work</p>
@@ -48,7 +48,7 @@ const FeaturedWorks = ({ featuredcontents }) => {
         `}
       </style>
     </div>
-  )
+  );
 }
 
 export default FeaturedWorks

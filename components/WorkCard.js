@@ -8,7 +8,7 @@ export const SoloCard = ({ solocontent }) => {
         <Link
           href="/projects/[title]"
           as={`/projects/${slug(solocontent.title)}`}
-        >
+          legacyBehavior>
           <a>
             <div className="cardinfo">
               <img
@@ -44,7 +44,7 @@ export const SoloCard = ({ solocontent }) => {
         `}
       </style>
     </div>
-  )
+  );
 }
 
 export const SoundscapeCard = ({ soundscapecontent }) => {
@@ -54,7 +54,7 @@ export const SoundscapeCard = ({ soundscapecontent }) => {
         <Link
           href="/projects/[title]"
           as={`/projects/${slug(soundscapecontent.title)}`}
-        >
+          legacyBehavior>
           <a>
             <div className="cardinfo">
               <img
@@ -89,7 +89,7 @@ export const SoundscapeCard = ({ soundscapecontent }) => {
         `}
       </style>
     </div>
-  )
+  );
 }
 
 export const PastShowCard = ({ pastshowscontent }) => {
@@ -99,7 +99,7 @@ export const PastShowCard = ({ pastshowscontent }) => {
         <Link
           href="/projects/[title]"
           as={`/projects/${slug(pastshowscontent.title)}`}
-        >
+          legacyBehavior>
           <a>
             <div className="cardinfo">
               <img
@@ -134,7 +134,7 @@ export const PastShowCard = ({ pastshowscontent }) => {
         `}
       </style>
     </div>
-  )
+  );
 }
 
 export const MovieArtSetCard = ({ movieartsetcontent }) => {
@@ -144,7 +144,7 @@ export const MovieArtSetCard = ({ movieartsetcontent }) => {
         <Link
           href="/projects/[title]"
           as={`/projects/${slug(movieartsetcontent.title)}`}
-        >
+          legacyBehavior>
           <a>
             <div className="cardinfo">
               <img
@@ -179,7 +179,7 @@ export const MovieArtSetCard = ({ movieartsetcontent }) => {
         `}
       </style>
     </div>
-  )
+  );
 }
 export const FeaturedCard = ({ featuredcontent }) => {
   return (
@@ -188,7 +188,7 @@ export const FeaturedCard = ({ featuredcontent }) => {
         <Link
           href="/projects/[title]"
           as={`/projects/${slug(featuredcontent.title)}`}
-        >
+          legacyBehavior>
           <a>
             <div className="cardinfo">
               <img
@@ -223,7 +223,7 @@ export const FeaturedCard = ({ featuredcontent }) => {
         `}
       </style>
     </div>
-  )
+  );
 }
 
 export const LivePianoCard = ({ livepianocontent }) => {
@@ -233,7 +233,7 @@ export const LivePianoCard = ({ livepianocontent }) => {
         <Link
           href="/projects/[title]"
           as={`/projects/${slug(livepianocontent.title)}`}
-        >
+          legacyBehavior>
           <a>
             <div className="cardinfo">
               <img
@@ -269,7 +269,7 @@ export const LivePianoCard = ({ livepianocontent }) => {
         `}
       </style>
     </div>
-  )
+  );
 }
 
 export const PianoCard = ({ pianocontent }) => {
@@ -279,7 +279,7 @@ export const PianoCard = ({ pianocontent }) => {
         <Link
           href="/projects/[title]"
           as={`/projects/${slug(pianocontent.title)}`}
-        >
+          legacyBehavior>
           <a>
             <div className="cardinfo">
               <img
@@ -315,7 +315,7 @@ export const PianoCard = ({ pianocontent }) => {
         `}
       </style>
     </div>
-  )
+  );
 }
 
 export const FeaturedSsCard = ({ featuredsscontent }) => {
@@ -325,7 +325,7 @@ export const FeaturedSsCard = ({ featuredsscontent }) => {
         <Link
           href="/projects/[title]"
           as={`/projects/${slug(featuredsscontent.title)}`}
-        >
+          legacyBehavior>
           <a>
             <div className="cardinfo">
               <img
@@ -361,5 +361,5 @@ export const FeaturedSsCard = ({ featuredsscontent }) => {
         `}
       </style>
     </div>
-  )
+  );
 }

@@ -3,17 +3,17 @@ import Link from 'next/link'
 const Navigation = () => {
   return (
     <nav>
-      <Link href="/who">
+      <Link href="/who" legacyBehavior>
         <a>BIO</a>
       </Link>
-      <Link href="/projects">
+      <Link href="/projects" legacyBehavior>
         <a>PROJECTS</a>
       </Link>
-      <Link href="/videos">
+      <Link href="/videos" legacyBehavior>
         <a>VIDEOS</a>
       </Link>
 
-      <Link href="/live">
+      <Link href="/live" legacyBehavior>
         <a>LIVE</a>
       </Link>
 
@@ -41,7 +41,7 @@ const Navigation = () => {
         }
       `}</style>
     </nav>
-  )
+  );
 }
 
 export default Navigation

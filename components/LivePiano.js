@@ -13,7 +13,7 @@ const LivePiano = ({ livepiano }) => {
           />
         ))}
       </div>
-      <Link href="/videos">
+      <Link href="/videos" legacyBehavior>
         <a>
           <div className="all-button">
             <p>Check em all!</p>
@@ -47,7 +47,7 @@ const LivePiano = ({ livepiano }) => {
         `}
       </style>
     </div>
-  )
+  );
 }
 
 export default LivePiano
