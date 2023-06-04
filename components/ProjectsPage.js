@@ -8,6 +8,15 @@ import SoundscapeWorks from './SoundscapeWorks'
 const solocontents = [
   {
    
+    id: 1,
+    title: 'Anicca',
+    year: '2022',
+    coverimageUrl: '/anicca.JPG',
+    alt: 'Anicca'
+ 
+},
+  {
+   
       id: 1,
       title: 'IRIS',
       year: '2021',

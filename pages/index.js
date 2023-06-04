@@ -105,6 +105,7 @@ const Index = () => {
       <div className="welcomearea">
         <img className="image" src="/denizgiris.png" />
       </div>
+       {/* 
       <div className="featured">
         <FeaturedWorks featuredcontents={featuredcontents} />
       </div>
@@ -114,6 +115,7 @@ const Index = () => {
       <div className="piano">
         <LivePiano livepiano={livepiano} />
       </div>
+       */}
       <div className="footer">
         <Footer />
       </div>

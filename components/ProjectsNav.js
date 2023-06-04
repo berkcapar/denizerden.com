@@ -3,17 +3,17 @@ const ProjectsNav = () => {
     <div className="container">
       <nav>
         <label>
-          <a href="#pianopieces">PIANO + ELECTRONIC WORKS</a>
+          <a href="#pianopieces">PIANO WORKS</a>
         </label>
         <label>
-          <a href="#soundscape">SOUNDSCAPE</a>
+          <a href="#soundscape">ELECTRONIC + SOUNDSCAPE WORKS</a>
         </label>
       </nav>
 
       <style jsx>
         {`
           nav {
-            border: 1px solid magenta;
+            border: 1px solid white;
             padding: 1.5rem;
             display: flex;
             justify-content: center;

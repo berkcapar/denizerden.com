@@ -4,7 +4,7 @@ import { SoloCard } from './WorkCard'
 const SoloWorks = ({ solocontents }) => {
   return (
     <div className="container">
-      <h2 className="solo-title">Electronic Works</h2>
+      <h2 className="solo-title">Piano Works</h2>
       <div className="solocontentcards">
         {solocontents.map((solocontent) => (
           <SoloCard key={solocontent.id} solocontent={solocontent} />

@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
           content="I88ImTnEJlG0q0jtr99CvVaXWedMCrMmi3Theds5rqs"
         />
 
-        <title>Deniz Erden - Pianist / Sound Artist</title>
+        <title>Deniz Erden - Pianist / Composer</title>
         <meta name="description" content="Deniz Erden" />
       </Head>
       <div className="container">

@@ -7,7 +7,7 @@ const Header = () => {
       <Link href="/" legacyBehavior>
         <a>
           <h1>DENİZ ERDEN</h1>
-          <h3>Pianist - Sound Artist</h3>
+          <h3>Pianist - Composer</h3>
         </a>
       </Link>
       <style jsx>

@@ -5,7 +5,7 @@ const SoundscapeWorks = ({ soundscapecontents }) => {
   return (
     <div className="container">
       <h2 id="soundscape" className="solo-title">
-        Soundscapes
+        Electronic + Soundscape Works
       </h2>
       <div className="collabcontentcards">
         {soundscapecontents.map((soundscapecontent) => (

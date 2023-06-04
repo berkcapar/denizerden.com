@@ -13,9 +13,7 @@ const Navigation = () => {
         <a>VIDEOS</a>
       </Link>
 
-      <Link href="/live" legacyBehavior>
-        <a>LIVE</a>
-      </Link>
+    
 
       <style jsx>{`
         nav {

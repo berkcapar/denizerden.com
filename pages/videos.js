@@ -8,6 +8,28 @@ const Videos = () => {
       <div className="container">
         <h2 className="title">Here are some piano recordings </h2>
         <div className="iframe-container">
+          <h3>Deniz Erden - Anicca</h3>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/2GmfMq5xuS8"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className="iframe-container">
+          <h3>O. Messiaen - Catalogue d'oiseaux / Book.5 No.9 La Bouscarle</h3>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/T7Uo3FIa9sQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className="iframe-container">
           <h3>Fazıl Say - Sarı Gelin</h3>
           <iframe
             width="560"
