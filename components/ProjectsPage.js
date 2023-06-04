@@ -54,13 +54,6 @@ const solocontents = [
   },
 
   {
-    id: 6,
-    title: 'Riders w/MEY',
-    year: '2020',
-    coverimageUrl: '/riders.jpg',
-    alt: 'MEY'
-  },
-  {
     id: 7,
     title: 'Shadows',
     year: '2020',
