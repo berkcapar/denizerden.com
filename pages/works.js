@@ -92,7 +92,12 @@ const works = [
         title: "Deniz Erden - Fazıl Say, Yürüyen Köşk (Live in Japan)",
         type: "youtube",
         embedUrl: "https://www.youtube.com/embed/Xl-2WFL9mz8"
-      }
+      },
+      {
+        title: "Die Spiele",
+        type: "soundcloud",
+        embedUrl: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1999017495&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+      },
     ]
   },
   {
