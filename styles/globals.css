@@ -1,16 +1,30 @@
+html,
 body {
-  background-color: black;
-  border-style: solid;
-  border-color: #E1BFD1;
-  border-width: 1rem;
   padding: 0;
   margin: 0;
+  background: white !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#__next {
+  background: white !important;
+}
+
+body::before,
+body::after {
+  display: none !important;
+}
+
+body {
+ 
   font-family: 
     'Ubuntu', sans-serif;
   font-size: 0.9rem;
   min-height: calc(100vh - 2rem);
 }
-
 
 .cardimage{
   width: 70%;   
@@ -44,7 +58,6 @@ a{
 .solo-title{
   font-size: 1.5rem;
   margin: 3rem auto;
-
 }
 
 
