@@ -8,5 +8,8 @@ module.exports = {
     },
     images: {
       unoptimized: true
-    }
+    },
+    output: 'export',
+    trailingSlash: true,
+    unstable_runtimeJS: false
   }
