@@ -10,6 +10,7 @@ export default function Navigation({ isVisible }) {
       <div className="desktop-nav">
         <div className="nav-left">
           <Link href="/works">Works</Link>
+          <Link href="/concerts">Concerts</Link>
           <Link href="/about">About</Link>
           <a href="https://denizerden.bandcamp.com/music" target="_blank" rel="noopener noreferrer">Store</a>
         </div>
@@ -55,6 +56,7 @@ export default function Navigation({ isVisible }) {
         <div className="mobile-menu">
           <div className="mobile-links">
             <Link href="/works" onClick={() => setIsMenuOpen(false)}>Works</Link>
+            <Link href="/concerts" onClick={() => setIsMenuOpen(false)}>Concerts</Link>
             <Link href="/about" onClick={() => setIsMenuOpen(false)}>About</Link>
             <a href="https://denizerden.bandcamp.com/music" 
                target="_blank" 

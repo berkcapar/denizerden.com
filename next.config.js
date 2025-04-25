@@ -11,5 +11,17 @@ module.exports = {
     },
     output: 'export',
     trailingSlash: true,
-    unstable_runtimeJS: false
+    unstable_runtimeJS: false,
+    // Exclude page patterns from static generation to avoid errors
+    exportPathMap: async function() {
+      return {
+        '/': { page: '/' },
+        '/works': { page: '/works' },
+        '/concerts': { page: '/concerts' },
+        '/about': { page: '/about' },
+        '/videos': { page: '/videos' },
+        '/who': { page: '/who' },
+        '/live': { page: '/live' }
+      }
+    }
   }

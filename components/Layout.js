@@ -1,4 +1,4 @@
-const { default: Navigation } = require('./Navigation')
+import Navigation from './Navigation'
 import Head from 'next/head'
 import Footer from './Footer'
 import Header from './Header'
@@ -58,4 +58,5 @@ const Layout = ({ children }) => {
     </div>
   )
 }
+
 export default Layout
