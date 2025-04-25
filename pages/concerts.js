@@ -71,7 +71,7 @@ export default function Concerts({ concerts }) {
                   <p className="concert-name">{concert.name}</p>
                   
                   {concert.conductor && (
-                    <p className="concert-conductor">{concert.conductor}, conductor</p>
+                    <p className="concert-conductor">Conductor, {concert.conductor}</p>
                   )}
                   
                   {concert.title && (

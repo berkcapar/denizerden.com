@@ -186,14 +186,15 @@ export default function Navigation({ isVisible }) {
           display: flex;
           flex-direction: column;
           align-items: center;
-          gap: 4rem;
-          margin-bottom: 6rem;
+          gap: 3rem;
+          margin-bottom: 4rem;
+          margin-top: 3rem;
         }
 
         .mobile-links :global(a),
         .mobile-links a {
           color: white !important;
-          font-size: 3.5rem;
+          font-size: 2.8rem;
           text-decoration: none;
           font-weight: 500;
           text-align: center;
@@ -201,13 +202,17 @@ export default function Navigation({ isVisible }) {
 
         .mobile-social {
           display: flex;
-          gap: 3rem;
+          gap: 2rem;
           justify-content: center;
+          flex-wrap: wrap;
+          max-width: 90%;
+          margin: 0 auto;
         }
 
         .mobile-social a {
           color: white !important;
-          font-size: 2rem;
+          font-size: 1.6rem;
+          margin-bottom: 1rem;
         }
 
         .menu-button {
