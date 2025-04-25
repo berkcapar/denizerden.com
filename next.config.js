@@ -18,10 +18,7 @@ module.exports = {
         '/': { page: '/' },
         '/works': { page: '/works' },
         '/concerts': { page: '/concerts' },
-        '/about': { page: '/about' },
-        '/videos': { page: '/videos' },
-        '/who': { page: '/who' },
-        '/live': { page: '/live' }
+        '/about': { page: '/about' }
       }
     }
   }
