@@ -114,6 +114,7 @@ export default function Navigation({ isVisible }) {
           justify-content: space-between;
           align-items: center;
           padding: 2rem 3rem;
+          position: relative;
         }
 
         .mobile-nav {
@@ -122,7 +123,7 @@ export default function Navigation({ isVisible }) {
           left: 0;
           right: 0;
           display: none;
-          justify-content: space-between;
+          justify-content: center;
           align-items: center;
           padding: 1.5rem 2rem;
           z-index: 1000;
@@ -130,15 +131,16 @@ export default function Navigation({ isVisible }) {
 
         .nav-left {
           display: flex;
-          gap: 2.5rem;
+          gap: 1.5rem;
           align-items: center;
+          width: 30%;
         }
 
         .nav-left :global(a), 
         .nav-left a {
           color: black !important;
           text-decoration: none;
-          font-size: 1.8rem;
+          font-size: 1.4rem;
           font-weight: 500;
           transition: opacity 0.2s ease;
         }
@@ -147,10 +149,19 @@ export default function Navigation({ isVisible }) {
           opacity: 0.8;
         }
 
+        .nav-center {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          text-align: center;
+        }
+
         .nav-right {
           display: flex;
           gap: 2.5rem;
           align-items: center;
+          width: 30%;
+          justify-content: flex-end;
         }
 
         .nav-center h1 {
@@ -223,6 +234,8 @@ export default function Navigation({ isVisible }) {
           color: ${isMenuOpen ? 'white' : 'black'};
           padding: 0.5rem;
           z-index: 1000;
+          position: absolute;
+          right: 2rem;
         }
 
         .mobile-nav h1 {
