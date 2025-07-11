@@ -5,18 +5,37 @@ import Navigation from '../components/Navigation';
 export async function getStaticProps() {
   // We could fetch this data from an API or CMS in the future
   const concerts = [
+   
     {
       id: 1,
+      date: '8 March 2025',
+      name: '',
+      title: 'Anicca Album Concert',
+      conductor: '',
+      venue: 'Ballery',
+      location: 'Berlin'
+    },
+    {
+      id: 2,
       date: '30 May 2025',
       name: 'Eskisehir Metropolitan Municipality Symphony Orchestra',
       title: 'Grieg Piano Concerto in A minor',
-      conductor: 'Ender Sakpınar',
+      conductor: 'Cem Mansur',
       venue: 'Atatürk Kültür Sanat ve Kongre Merkezi',
       location: 'Eskisehir / Turkey'
     },
     {
-      id: 2,
-      date: '22 Nov 2025',
+      id: 3,
+      date: '31 May 2025',
+      name: '',
+      title: 'Anicca Album Concert ',
+      conductor: '',
+      venue: 'Unique Dot Space',
+      location: 'Eskisehir / Turkey'
+    },
+    {
+      id: 4,
+      date: '21 Nov 2025',
       title: '',
       conductor: '',
       venue: 'Nagoya / Japan',
