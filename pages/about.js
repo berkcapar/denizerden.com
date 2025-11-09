@@ -39,38 +39,36 @@ export default function About() {
           <h1>About</h1>
           
           <p className="intro">
-            Deniz Erden, born in 1993 in Eskişehir, Turkey, is a classical pianist, composer and sound artist living in Berlin.
+          Deniz Erden (b. 1993, Eskişehir) is a classical pianist, composer and sound artist based in Berlin.
           </p>
 
           <div className="bio-sections">
             <section>
               <p>
-                She began her piano studies in 2003 at Anadolu University State Conservatory on a part-time basis and continued full-time in 2004 in the class of Hungarian pianist Robert Farkas. In 2011 she pursued her undergraduate education at Mimar Sinan Fine Arts University State Conservatory under Professor Hülya Tarcan and completed her master's degree in 2017 at the same institution with research focused on twentieth century music.
+              She began her piano studies at Anadolu University State Conservatory in 2003 and continued under the guidance of Hungarian pianist Robert Farkas. In 2011, she entered the State Conservatory of Mimar Sinan Fine Arts University, studying with Professor Hülya Tarcan and completed her master’s degree in 2017 with research focused on twentieth-century music. She has also worked privately with Elif Şahin (Stuttgart Musikhochschule), who has been an important influence in her musical development.              </p>
+            </section>
+
+            <section>
+              <p>
+              In 2025, Erden presents a performance intertwining pieces from her solo piano album Anicca with new compositions. Inspired by Buddhist philosophy, Anicca (2024) reflects on the notion that all things are in flux and that resistance to change leads to suffering. Through this idea, she explores these fragile moments between resistance and acceptance, shaping a minimal yet emotionally vivid sound world.
               </p>
             </section>
 
             <section>
               <p>
-                In 2025, Deniz will present a performance that blends works from her solo album "Anicca" with new compositions in development, enhanced by electronic soundscapes and manipulated field recordings. The concept behind "Anicca" is inspired by Buddhist philosophy and emphasizes that everything is in constant flux and that resisting change leads to suffering. Through this project, she aims to explore the delicate balance between resistance to change and acceptance.
+              In November 2024, she was invited to Japan for the third time as one of two pianists selected by the Consulate General to commemorate the 100th anniversary of diplomatic friendship between Turkey and Japan. During the visit, she gave a masterclass and a lecture concert at Hiroshima Elisabeth University, presenting contemporary Turkish repertoire alongside her own work. On her first visit in 2019, she premiered Ringlet, a piano work dedicated to her by Japanese composer Haruyuki Suzuki.
               </p>
             </section>
 
             <section>
               <p>
-                In November 2024, Deniz was invited for the third time to Japan as one of two pianists selected by the consulate to celebrate the 100th anniversary of Turkey Japan diplomatic friendship. Strengthening her ties with Japanese composers and artists on each visit, she conducted a masterclass and concert at Hiroshima Elisabeth University where she introduced Turkish contemporary music and presented selections of her work. On her first visit, she premiered "Ringlet," a piece dedicated to her by Haruyuki Suzuki, in Tokyo.
+              Her electroacoustic work engages with contemporary social and political contexts. Developed between 2017 and 2023 and continuing to evolve, her projects combine field recordings, live processing and compositional design to explore themes such as women’s rights, ecological issues, and urban transformation. These works have been presented at the Pera Museum, CCA Berlin and the Orient Institut Istanbul.
               </p>
             </section>
 
             <section>
               <p>
-                Deniz's electro acoustic projects engage with contemporary socio political dynamics and address pressing issues of our time. Her work, developed from 2017 to 2023 and continuing to evolve, seamlessly blends field recordings with electronic soundscapes and manipulation techniques to explore themes such as women's rights, ecological challenges, urban transformation and language. Collaborative projects with various musicologists have been exhibited at renowned venues including the Pera Museum, CCA Berlin and the Orient Institute Istanbul.
-              </p>
-            </section>
-
-            <section>
-              <p>
-                She has performed on international stages such as Tokyo Bunkyo Civic Hall, Nagoya Atsuta Theatre, Aichi University of the Arts, Okinawa Prefectural University of the Arts, Stuttgart Musikhochschule, ArtLiners Berlin and The Ballery as well as on renowned stages in Turkey.
-              </p>
+              She has appeared on international stages including Tokyo Bunkyo Civic Hall, Nagoya Atsuta Playhouse, Aichi University of the Arts, Okinawa Prefectural University of the Arts, Hiroshima Elisabeth University of Music, Stuttgart Musikhochschule, Artliners Berlin and The Ballery, as well as major concert venues in Turkey. In 2025, she performed Grieg’s Piano Concerto with the Eskişehir Symphony Orchestra.              </p>
             </section>
           </div>
         </article>

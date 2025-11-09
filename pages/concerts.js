@@ -5,9 +5,44 @@ import Navigation from '../components/Navigation';
 export async function getStaticProps() {
   // We could fetch this data from an API or CMS in the future
   const concerts = [
-   
     {
       id: 1,
+      date: '24 November 2025',
+      name: '',
+      title: 'Solo Piano Album Concert "Anicca"',
+      conductor: '',
+      venue: 'Moriyama Bunka Shogekijo Hall',
+      location: 'Nagoya / Japan (Supported by Consulate General of Turkey Nagoya)'
+    },
+    {
+      id: 2,
+      date: '21 November 2025',
+      name: '',
+      title: '*Guest Artist\n\nMikako Mizuno, "Moments from Shifting Waves" For Solo Piano (World Premiere)\nHideki Kozakura, "BYond Mozart" For Solo Piano and Live Electronics (Japan Premiere)\nWenHao Zhao "Drizzle and Fog II" For Solo Piano and Live Electronics (World Premiere)',
+      conductor: '',
+      venue: 'Nagoya College of Music',
+      location: 'Nagoya / Japan'
+    },
+    {
+      id: 3,
+      date: '18 November 2025',
+      name: '',
+      title: 'Lecture: The Contemporary Pianist: Sound, Body, Identity',
+      conductor: '',
+      venue: 'Nagoya College of Music',
+      location: 'Nagoya / Japan'
+    },
+    {
+      id: 4,
+      date: '17 November 2025',
+      name: '',
+      title: '',
+      conductor: '',
+      venue: 'Aichi University of Arts',
+      location: 'Nagoya / Japan'
+    },
+    {
+      id: 5,
       date: '8 March 2025',
       name: '',
       title: 'Anicca Album Concert',
@@ -16,7 +51,7 @@ export async function getStaticProps() {
       location: 'Berlin'
     },
     {
-      id: 2,
+      id: 6,
       date: '30 May 2025',
       name: 'Eskisehir Metropolitan Municipality Symphony Orchestra',
       title: 'Grieg Piano Concerto in A minor',
@@ -25,21 +60,13 @@ export async function getStaticProps() {
       location: 'Eskisehir / Turkey'
     },
     {
-      id: 3,
+      id: 7,
       date: '31 May 2025',
       name: '',
       title: 'Anicca Album Concert ',
       conductor: '',
       venue: 'Unique Dot Space',
       location: 'Eskisehir / Turkey'
-    },
-    {
-      id: 4,
-      date: '21 Nov 2025',
-      title: '',
-      conductor: '',
-      venue: 'Nagoya / Japan',
-      location: 'Details soon'
     }
   ]
 
@@ -197,6 +224,7 @@ export default function Concerts({ concerts }) {
           color: #000;
           font-family: sans-serif;
           font-weight: 400;
+          white-space: pre-line;
         }
         
         :global(.nav-left a) {
