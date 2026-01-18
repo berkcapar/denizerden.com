@@ -7,6 +7,24 @@ export async function getStaticProps() {
   const concerts = [
     {
       id: 1,
+      date: '8 March 2026',
+      name: '',
+      title: 'Anicca Album Concert',
+      conductor: '',
+      venue: 'Sofar Sounds Ankara',
+      location: ''
+    },
+    {
+      id: 1,
+      date: '20 December 2025',
+      name: '',
+      title: 'Anicca Album Concert',
+      conductor: '',
+      venue: 'Sofar Sounds Berlin',
+      location: ''
+    },
+    {
+      id: 2,
       date: '24 November 2025',
       name: '',
       title: 'Solo Piano Album Concert "Anicca"',
@@ -42,16 +60,16 @@ export async function getStaticProps() {
       location: 'Nagoya / Japan'
     },
     {
-      id: 5,
-      date: '8 March 2025',
+      id: 6,
+      date: '31 May 2025',
       name: '',
-      title: 'Anicca Album Concert',
+      title: 'Anicca Album Concert ',
       conductor: '',
-      venue: 'Ballery',
-      location: 'Berlin'
+      venue: 'Unique Dot Space',
+      location: 'Eskisehir / Turkey'
     },
     {
-      id: 6,
+      id: 5,
       date: '30 May 2025',
       name: 'Eskisehir Metropolitan Municipality Symphony Orchestra',
       title: 'Grieg Piano Concerto in A minor',
@@ -59,15 +77,17 @@ export async function getStaticProps() {
       venue: 'Atatürk Kültür Sanat ve Kongre Merkezi',
       location: 'Eskisehir / Turkey'
     },
+   
     {
       id: 7,
-      date: '31 May 2025',
+      date: '8 March 2025',
       name: '',
-      title: 'Anicca Album Concert ',
+      title: 'Anicca Album Concert',
       conductor: '',
-      venue: 'Unique Dot Space',
-      location: 'Eskisehir / Turkey'
-    }
+      venue: 'Ballery',
+      location: 'Berlin'
+    },
+    
   ]
 
   return {
