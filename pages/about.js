@@ -39,7 +39,7 @@ export default function About() {
           <h1>About</h1>
           
           <p className="intro">
-          Deniz Erden (b. 1993, Eskişehir, Turkey) is a classical pianist, composer and sound artist based in Berlin.
+          Deniz Erden is a Turkish classical pianist and composer based in Berlin.
           </p>
 
           <div className="bio-sections">
