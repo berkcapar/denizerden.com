@@ -45,30 +45,44 @@ export default function About() {
           <div className="bio-sections">
             <section>
               <p>
-              She began her piano studies at Anadolu University State Conservatory in 2003 and continued under the guidance of Hungarian pianist Robert Farkas. In 2011, she entered the State Conservatory of Mimar Sinan Fine Arts University, studying with Professor Hülya Tarcan and completed her master’s degree in 2017 with research focused on twentieth-century music. She has also worked privately with Elif Şahin (Stuttgart Musikhochschule), who has been an important influence in her musical development.              </p>
-            </section>
-
-            <section>
-              <p>
-              In 2025, Erden presents a performance intertwining pieces from her solo piano album Anicca with new compositions. Inspired by Buddhist philosophy, Anicca (2024) reflects on the notion that all things are in flux and that resistance to change leads to suffering. Through this idea, she explores these fragile moments between resistance and acceptance, shaping a minimal yet emotionally vivid sound world.
+              She began her piano studies at Anadolu University State Conservatory in 2003 and continued under the guidance of Hungarian pianist Robert Farkas. In 2011, she entered the State Conservatory of Mimar Sinan Fine Arts University, where she studied with Professor Hülya Tarcan and completed her master’s degree in 2017, focusing on twentieth-century music. She has also worked privately with Elif Şahin (Stuttgart Musikhochschule), who has been an important influence on her artistic development.
               </p>
             </section>
 
             <section>
               <p>
-              In November 2024, she was invited to Japan for the third time as one of two pianists selected by the Consulate General to commemorate the 100th anniversary of diplomatic friendship between Turkey and Japan. During the visit, she gave a masterclass and a lecture concert at Hiroshima Elisabeth University, presenting contemporary Turkish repertoire alongside her own work. On her first visit in 2019, she premiered Ringlet, a piano work dedicated to her by Japanese composer Haruyuki Suzuki.
+              Her work bridges contemporary piano repertoire, composition and sound-based practices.
               </p>
             </section>
 
             <section>
               <p>
-              Her electroacoustic work engages with contemporary social and political contexts. Developed between 2017 and 2023 and continuing to evolve, her projects combine field recordings, live processing and compositional design to explore themes such as women’s rights, ecological issues, and urban transformation. These works have been presented at the Pera Museum, CCA Berlin and the Orient Institut Istanbul.
+              She maintains a sustained artistic connection with Japan, where she has been a frequent guest artist since 2019. During her most recent visit in 2024/2025, she was invited by the Nagoya College of Music to give a lecture on contemporary piano performance and present a recital featuring the world premiere of a piano work by composer Mikako Mizuno. She also performed a solo concert based on her album Anicca, organized by the Consulate General in Nagoya. Her earlier collaborations include the 2019 premiere of Ringlet, a piano work dedicated to her by Japanese composer Haruyuki Suzuki.
               </p>
             </section>
 
             <section>
               <p>
-              She has appeared on international stages including Tokyo Bunkyo Civic Hall, Nagoya Atsuta Playhouse, Aichi University of the Arts, Okinawa Prefectural University of the Arts, Hiroshima Elisabeth University of Music, Stuttgart Musikhochschule, Artliners Berlin and The Ballery, as well as major concert venues in Turkey. In 2025, she performed Grieg’s Piano Concerto with the Eskişehir Symphony Orchestra.              </p>
+              In 2024, she released her debut solo piano album Anicca, a neoclassical work inspired by Buddhist philosophy. The album reflects on the notion that all things are in flux and that resistance to change leads to suffering; through this lens, Erden explores the fragile moments between resistance and acceptance, shaping a minimal yet emotionally vivid sound world.
+              </p>
+            </section>
+
+            <section>
+              <p>
+              Her electroacoustic projects incorporate field recordings that explore themes such as women’s rights, ecological issues, and urban transformation. These works have been presented at prestigious institutions, including the Pera Museum, CCA Berlin, and the Orient Institut Istanbul.
+              </p>
+            </section>
+
+            <section>
+              <p>
+              As a performer, she has appeared at international venues such as Tokyo Bunkyo Civic Hall, Nagoya Atsuta Playhouse, Nagoya Moriyama Hall, Aichi University of the Arts, Okinawa Prefectural University of the Arts, Hiroshima Elisabeth University of Music, Stuttgart Musikhochschule, Artliners Berlin, Sofar Berlin, and The Ballery, as well as major concert halls across Turkey.
+              </p>
+            </section>
+
+            <section>
+              <p>
+              In 2025, she performed Grieg’s Piano Concerto with the Eskişehir Symphony Orchestra under the baton of Cem Mansur.
+              </p>
             </section>
           </div>
         </article>
