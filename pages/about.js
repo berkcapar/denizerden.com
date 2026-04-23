@@ -57,13 +57,13 @@ export default function About() {
 
             <section>
               <p>
-              She maintains a sustained artistic connection with Japan, where she has been a frequent guest artist since 2019. During her most recent visit in 2024/2025, she was invited by the Nagoya College of Music to give a lecture on contemporary piano performance and present a recital featuring the world premiere of a piano work by composer Mikako Mizuno. She also performed a solo concert based on her album Anicca, organized by the Consulate General in Nagoya. Her earlier collaborations include the 2019 premiere of Ringlet, a piano work dedicated to her by Japanese composer Haruyuki Suzuki.
+              She maintains a sustained artistic connection with Japan, where she has been a frequent guest artist since 2019. During her most recent visit in 2024/2025, she was invited by the Nagoya College of Music to give a lecture on contemporary piano performance and present a recital featuring the world premiere of a piano work by composer Mikako Mizuno. She also performed a solo concert based on her album Anicca, organized by the Turkish Consulate General in Nagoya. Her earlier collaborations include the 2019 premiere of Ringlet, a piano work dedicated to her by Japanese composer Haruyuki Suzuki.
               </p>
             </section>
 
             <section>
               <p>
-              In 2024, she released her debut solo piano album Anicca, a neoclassical work inspired by Buddhist philosophy. The album reflects on the notion that all things are in flux and that resistance to change leads to suffering; through this lens, Erden explores the fragile moments between resistance and acceptance, shaping a minimal yet emotionally vivid sound world.
+              In 2024, she released her debut solo piano album Anicca, a neoclassical work inspired by Buddhist philosophy. The album reflects on the notion that all things are in flux and that resistance to change leads to suffering; through this lens, she explores the fragile moments between resistance and acceptance, shaping a minimal yet emotionally vivid sound world.
               </p>
             </section>
 

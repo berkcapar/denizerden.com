@@ -5,15 +5,7 @@ import Navigation from '../components/Navigation';
 export async function getStaticProps() {
   // We could fetch this data from an API or CMS in the future
   const concerts = [
-    {
-      id: 1,
-      date: '8 March 2026',
-      name: '',
-      title: 'Anicca Album Concert',
-      conductor: '',
-      venue: 'Sofar Sounds Ankara',
-      location: ''
-    },
+    
     {
       id: 1,
       date: '20 December 2025',

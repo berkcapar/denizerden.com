@@ -66,6 +66,26 @@ const EmbeddedMedia = styled.iframe`
 
 const works = [
   {
+    year: 2025,
+    projects: [
+      {
+        title: "Mikako Mizuno, Movements from Shifting Waves",
+        type: "youtube",
+        embedUrl: "https://www.youtube.com/embed/Xf0BW3AV--0"
+      },
+      {
+        title: "Hideki Kozakura, B♭Yond Mozart",
+        type: "youtube",
+        embedUrl: "https://www.youtube.com/embed/7JKujFn7GuQ"
+      },
+      {
+        title: "WenHao Zhao, Drizzle and Fog II",
+        type: "youtube",
+        embedUrl: "https://www.youtube.com/embed/-oY8jSKdE5s"
+      }
+    ]
+  },
+  {
     year: 2024,
     projects: [
       {
